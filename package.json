@@ -1,0 +1,46 @@
+{
+    "name": "@p2p-energy-trading-platform/typescript-sdk",
+    "version": "0.1.0",
+    "type": "module",
+    "private": false,
+    "sideEffects": false,
+    "exports": {
+        "./gen/*": {
+            "types": "./dist/gen/*.d.ts",
+            "import": "./dist/gen/*.js"
+        },
+        "./package.json": "./package.json"
+    },
+    "files": [
+        "dist",
+        "README.md",
+        "CHANGELOG.md",
+        "VERSION"
+    ],
+    "scripts": {
+        "clean": "rm -rf dist",
+        "build": "tsc -p tsconfig.json",
+        "check": "tsc -p tsconfig.json --noEmit",
+        "prepublishOnly": "npm run clean && npm run build"
+    },
+    "dependencies": {
+        "@bufbuild/protobuf": "2.12.1"
+    },
+    "peerDependencies": {
+        "@connectrpc/connect": "^2.1.2",
+        "@connectrpc/connect-node": "^2.1.2"
+    },
+    "peerDependenciesMeta": {
+        "@connectrpc/connect": {
+            "optional": true
+        },
+        "@connectrpc/connect-node": {
+            "optional": true
+        }
+    },
+    "devDependencies": {
+        "@connectrpc/connect": "2.1.2",
+        "@connectrpc/connect-node": "2.1.2",
+        "typescript": "7.0.2"
+    }
+}
