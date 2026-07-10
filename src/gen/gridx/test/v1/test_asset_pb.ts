@@ -10,7 +10,7 @@ import type { Message } from "@bufbuild/protobuf";
  * Describes the file gridx/test/v1/test_asset.proto.
  */
 export const file_gridx_test_v1_test_asset: GenFile = /*@__PURE__*/
-  fileDesc("Ch5ncmlkeC90ZXN0L3YxL3Rlc3RfYXNzZXQucHJvdG8SDWdyaWR4LnRlc3QudjEiQAoJVGVzdE1vbmV5EhUKDWN1cnJlbmN5X2NvZGUYASABKAkSDQoFdW5pdHMYAiABKAMSDQoFbmFub3MYAyABKAUiGQoJVGVzdEFzc2V0EgwKBG5hbWUYASABKAlCSFpGZ2l0aHViLmNvbS9wMnAtZW5lcmd5LXRyYWRpbmctcGxhdGZvcm0vZ28tc2RrL2dlbi9ncmlkeC90ZXN0L3YxO3Rlc3R2MWIGcHJvdG8z");
+  fileDesc("Ch5ncmlkeC90ZXN0L3YxL3Rlc3RfYXNzZXQucHJvdG8SDWdyaWR4LnRlc3QudjEiQAoJVGVzdE1vbmV5EhUKDWN1cnJlbmN5X2NvZGUYASABKAkSDQoFdW5pdHMYAiABKAMSDQoFbmFub3MYAyABKAUiKAoJVGVzdEFzc2V0EgwKBG5hbWUYASABKAkSDQoFcHJpY2UYAiABKANCSFpGZ2l0aHViLmNvbS9wMnAtZW5lcmd5LXRyYWRpbmctcGxhdGZvcm0vZ28tc2RrL2dlbi9ncmlkeC90ZXN0L3YxO3Rlc3R2MWIGcHJvdG8z");
 
 /**
  * Test proto files
@@ -49,6 +49,11 @@ export type TestAsset = Message<"gridx.test.v1.TestAsset"> & {
    * @generated from field: string name = 1;
    */
   name: string;
+
+  /**
+   * @generated from field: int64 price = 2;
+   */
+  price: bigint;
 };
 
 /**
