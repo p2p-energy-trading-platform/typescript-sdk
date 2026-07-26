@@ -12,24 +12,12 @@ import type { Message } from "@bufbuild/protobuf";
  * Describes the file gridx/grid/v1/grid_transfer_rule.proto.
  */
 export const file_gridx_grid_v1_grid_transfer_rule: GenFile = /*@__PURE__*/
-  fileDesc("CiZncmlkeC9ncmlkL3YxL2dyaWRfdHJhbnNmZXJfcnVsZS5wcm90bxINZ3JpZHguZ3JpZC52MSLyAQoQR3JpZFRyYW5zZmVyUnVsZRIcChBzZWxsZXJfZ3JpZF96b25lGAEgASgJQgIYARIbCg9idXllcl9ncmlkX3pvbmUYAiABKAlCAhgBEg8KB2FsbG93ZWQYAyABKAgSGAoQZ3JpZF9mZWVfcGVyX2t3aBgEIAEoAxIPCgd2ZXJzaW9uGAUgASgNEi4KCnVwZGF0ZWRfYXQYBiABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEhsKE3NlbGxlcl9ncmlkX3pvbmVfaWQYByABKA0SGgoSYnV5ZXJfZ3JpZF96b25lX2lkGAggASgNQkhaRmdpdGh1Yi5jb20vcDJwLWVuZXJneS10cmFkaW5nLXBsYXRmb3JtL2dvLXNkay9nZW4vZ3JpZHgvZ3JpZC92MTtncmlkdjFiBnByb3RvMw", [file_google_protobuf_timestamp]);
+  fileDesc("CiZncmlkeC9ncmlkL3YxL2dyaWRfdHJhbnNmZXJfcnVsZS5wcm90bxINZ3JpZHguZ3JpZC52MSLmAQoQR3JpZFRyYW5zZmVyUnVsZRIPCgdhbGxvd2VkGAMgASgIEhgKEGdyaWRfZmVlX3Blcl9rd2gYBCABKAMSDwoHdmVyc2lvbhgFIAEoDRIuCgp1cGRhdGVkX2F0GAYgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBIbChNzZWxsZXJfZ3JpZF96b25lX2lkGAcgASgNEhoKEmJ1eWVyX2dyaWRfem9uZV9pZBgIIAEoDUoECAEQAkoECAIQA1IQc2VsbGVyX2dyaWRfem9uZVIPYnV5ZXJfZ3JpZF96b25lQkhaRmdpdGh1Yi5jb20vcDJwLWVuZXJneS10cmFkaW5nLXBsYXRmb3JtL2dvLXNkay9nZW4vZ3JpZHgvZ3JpZC92MTtncmlkdjFiBnByb3RvMw", [file_google_protobuf_timestamp]);
 
 /**
  * @generated from message gridx.grid.v1.GridTransferRule
  */
 export type GridTransferRule = Message<"gridx.grid.v1.GridTransferRule"> & {
-  /**
-   * @generated from field: string seller_grid_zone = 1 [deprecated = true];
-   * @deprecated
-   */
-  sellerGridZone: string;
-
-  /**
-   * @generated from field: string buyer_grid_zone = 2 [deprecated = true];
-   * @deprecated
-   */
-  buyerGridZone: string;
-
   /**
    * @generated from field: bool allowed = 3;
    */
