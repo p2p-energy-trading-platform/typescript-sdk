@@ -5,6 +5,10 @@
     "private": false,
     "sideEffects": false,
     "exports": {
+        ".": {
+            "types": "./dist/index.d.ts",
+            "import": "./dist/index.js"
+        },
         "./gen/*": {
             "types": "./dist/gen/*.d.ts",
             "import": "./dist/gen/*.js"
@@ -20,6 +24,7 @@
     "scripts": {
         "clean": "rm -rf dist",
         "build": "tsc -p tsconfig.json",
+        "prepare": "npm run build",
         "check": "tsc -p tsconfig.json --noEmit",
         "prepublishOnly": "npm run clean && npm run build"
     },
