@@ -10,7 +10,7 @@ import type { Message } from "@bufbuild/protobuf";
  * Describes the file gridx/auth/v1/auth.proto.
  */
 export const file_gridx_auth_v1_auth: GenFile = /*@__PURE__*/
-  fileDesc("ChhncmlkeC9hdXRoL3YxL2F1dGgucHJvdG8SDWdyaWR4LmF1dGgudjEiMgoPUmVnaXN0ZXJSZXF1ZXN0Eg0KBWVtYWlsGAEgASgJEhAKCHBhc3N3b3JkGAIgASgJIlYKEFJlZ2lzdGVyUmVzcG9uc2USDwoHdXNlcl9pZBgBIAEoCRINCgVlbWFpbBgCIAEoCRIOCgZzdGF0dXMYAyABKAkSEgoKY3JlYXRlZF9hdBgEIAEoCSIvCgxMb2dpblJlcXVlc3QSDQoFZW1haWwYASABKAkSEAoIcGFzc3dvcmQYAiABKAkicAoNTG9naW5SZXNwb25zZRIPCgd1c2VyX2lkGAEgASgJEg0KBWVtYWlsGAIgASgJEhQKDGFjY2Vzc190b2tlbhgDIAEoCRIVCg1yZWZyZXNoX3Rva2VuGAQgASgJEhIKCmV4cGlyZXNfaW4YBSABKAMiJgoNTG9nb3V0UmVxdWVzdBIVCg1yZWZyZXNoX3Rva2VuGAEgASgJIiEKDkxvZ291dFJlc3BvbnNlEg8KB3N1Y2Nlc3MYASABKAgy5QEKC0F1dGhTZXJ2aWNlEksKCFJlZ2lzdGVyEh4uZ3JpZHguYXV0aC52MS5SZWdpc3RlclJlcXVlc3QaHy5ncmlkeC5hdXRoLnYxLlJlZ2lzdGVyUmVzcG9uc2USQgoFTG9naW4SGy5ncmlkeC5hdXRoLnYxLkxvZ2luUmVxdWVzdBocLmdyaWR4LmF1dGgudjEuTG9naW5SZXNwb25zZRJFCgZMb2dvdXQSHC5ncmlkeC5hdXRoLnYxLkxvZ291dFJlcXVlc3QaHS5ncmlkeC5hdXRoLnYxLkxvZ291dFJlc3BvbnNlQkhaRmdpdGh1Yi5jb20vcDJwLWVuZXJneS10cmFkaW5nLXBsYXRmb3JtL2dvLXNkay9nZW4vZ3JpZHgvYXV0aC92MTthdXRodjFiBnByb3RvMw");
+  fileDesc("ChhncmlkeC9hdXRoL3YxL2F1dGgucHJvdG8SDWdyaWR4LmF1dGgudjEiMgoPUmVnaXN0ZXJSZXF1ZXN0Eg0KBWVtYWlsGAEgASgJEhAKCHBhc3N3b3JkGAIgASgJIlYKEFJlZ2lzdGVyUmVzcG9uc2USDwoHdXNlcl9pZBgBIAEoCRINCgVlbWFpbBgCIAEoCRIOCgZzdGF0dXMYAyABKAkSEgoKY3JlYXRlZF9hdBgEIAEoCSIvCgxMb2dpblJlcXVlc3QSDQoFZW1haWwYASABKAkSEAoIcGFzc3dvcmQYAiABKAkicAoNTG9naW5SZXNwb25zZRIPCgd1c2VyX2lkGAEgASgJEg0KBWVtYWlsGAIgASgJEhQKDGFjY2Vzc190b2tlbhgDIAEoCRIVCg1yZWZyZXNoX3Rva2VuGAQgASgJEhIKCmV4cGlyZXNfaW4YBSABKAMiJgoNTG9nb3V0UmVxdWVzdBIVCg1yZWZyZXNoX3Rva2VuGAEgASgJIiEKDkxvZ291dFJlc3BvbnNlEg8KB3N1Y2Nlc3MYASABKAgiEgoQTG9nb3V0QWxsUmVxdWVzdCIkChFMb2dvdXRBbGxSZXNwb25zZRIPCgdzdWNjZXNzGAEgASgIMrUCCgtBdXRoU2VydmljZRJLCghSZWdpc3RlchIeLmdyaWR4LmF1dGgudjEuUmVnaXN0ZXJSZXF1ZXN0Gh8uZ3JpZHguYXV0aC52MS5SZWdpc3RlclJlc3BvbnNlEkIKBUxvZ2luEhsuZ3JpZHguYXV0aC52MS5Mb2dpblJlcXVlc3QaHC5ncmlkeC5hdXRoLnYxLkxvZ2luUmVzcG9uc2USRQoGTG9nb3V0EhwuZ3JpZHguYXV0aC52MS5Mb2dvdXRSZXF1ZXN0Gh0uZ3JpZHguYXV0aC52MS5Mb2dvdXRSZXNwb25zZRJOCglMb2dvdXRBbGwSHy5ncmlkeC5hdXRoLnYxLkxvZ291dEFsbFJlcXVlc3QaIC5ncmlkeC5hdXRoLnYxLkxvZ291dEFsbFJlc3BvbnNlQkhaRmdpdGh1Yi5jb20vcDJwLWVuZXJneS10cmFkaW5nLXBsYXRmb3JtL2dvLXNkay9nZW4vZ3JpZHgvYXV0aC92MTthdXRodjFiBnByb3RvMw");
 
 /**
  * @generated from message gridx.auth.v1.RegisterRequest
@@ -160,6 +160,36 @@ export const LogoutResponseSchema: GenMessage<LogoutResponse> = /*@__PURE__*/
   messageDesc(file_gridx_auth_v1_auth, 5);
 
 /**
+ * @generated from message gridx.auth.v1.LogoutAllRequest
+ */
+export type LogoutAllRequest = Message<"gridx.auth.v1.LogoutAllRequest"> & {
+};
+
+/**
+ * Describes the message gridx.auth.v1.LogoutAllRequest.
+ * Use `create(LogoutAllRequestSchema)` to create a new message.
+ */
+export const LogoutAllRequestSchema: GenMessage<LogoutAllRequest> = /*@__PURE__*/
+  messageDesc(file_gridx_auth_v1_auth, 6);
+
+/**
+ * @generated from message gridx.auth.v1.LogoutAllResponse
+ */
+export type LogoutAllResponse = Message<"gridx.auth.v1.LogoutAllResponse"> & {
+  /**
+   * @generated from field: bool success = 1;
+   */
+  success: boolean;
+};
+
+/**
+ * Describes the message gridx.auth.v1.LogoutAllResponse.
+ * Use `create(LogoutAllResponseSchema)` to create a new message.
+ */
+export const LogoutAllResponseSchema: GenMessage<LogoutAllResponse> = /*@__PURE__*/
+  messageDesc(file_gridx_auth_v1_auth, 7);
+
+/**
  * @generated from service gridx.auth.v1.AuthService
  */
 export const AuthService: GenService<{
@@ -186,6 +216,14 @@ export const AuthService: GenService<{
     methodKind: "unary";
     input: typeof LogoutRequestSchema;
     output: typeof LogoutResponseSchema;
+  },
+  /**
+   * @generated from rpc gridx.auth.v1.AuthService.LogoutAll
+   */
+  logoutAll: {
+    methodKind: "unary";
+    input: typeof LogoutAllRequestSchema;
+    output: typeof LogoutAllResponseSchema;
   },
 }> = /*@__PURE__*/
   serviceDesc(file_gridx_auth_v1_auth, 0);
