@@ -10,7 +10,7 @@ import type { Message } from "@bufbuild/protobuf";
  * Describes the file gridx/auth/v1/auth.proto.
  */
 export const file_gridx_auth_v1_auth: GenFile = /*@__PURE__*/
-  fileDesc("ChhncmlkeC9hdXRoL3YxL2F1dGgucHJvdG8SDWdyaWR4LmF1dGgudjEiMgoPUmVnaXN0ZXJSZXF1ZXN0Eg0KBWVtYWlsGAEgASgJEhAKCHBhc3N3b3JkGAIgASgJIlYKEFJlZ2lzdGVyUmVzcG9uc2USDwoHdXNlcl9pZBgBIAEoCRINCgVlbWFpbBgCIAEoCRIOCgZzdGF0dXMYAyABKAkSEgoKY3JlYXRlZF9hdBgEIAEoCSIvCgxMb2dpblJlcXVlc3QSDQoFZW1haWwYASABKAkSEAoIcGFzc3dvcmQYAiABKAkicAoNTG9naW5SZXNwb25zZRIPCgd1c2VyX2lkGAEgASgJEg0KBWVtYWlsGAIgASgJEhQKDGFjY2Vzc190b2tlbhgDIAEoCRIVCg1yZWZyZXNoX3Rva2VuGAQgASgJEhIKCmV4cGlyZXNfaW4YBSABKAMiJgoNTG9nb3V0UmVxdWVzdBIVCg1yZWZyZXNoX3Rva2VuGAEgASgJIiEKDkxvZ291dFJlc3BvbnNlEg8KB3N1Y2Nlc3MYASABKAgiEgoQTG9nb3V0QWxsUmVxdWVzdCIkChFMb2dvdXRBbGxSZXNwb25zZRIPCgdzdWNjZXNzGAEgASgIMrUCCgtBdXRoU2VydmljZRJLCghSZWdpc3RlchIeLmdyaWR4LmF1dGgudjEuUmVnaXN0ZXJSZXF1ZXN0Gh8uZ3JpZHguYXV0aC52MS5SZWdpc3RlclJlc3BvbnNlEkIKBUxvZ2luEhsuZ3JpZHguYXV0aC52MS5Mb2dpblJlcXVlc3QaHC5ncmlkeC5hdXRoLnYxLkxvZ2luUmVzcG9uc2USRQoGTG9nb3V0EhwuZ3JpZHguYXV0aC52MS5Mb2dvdXRSZXF1ZXN0Gh0uZ3JpZHguYXV0aC52MS5Mb2dvdXRSZXNwb25zZRJOCglMb2dvdXRBbGwSHy5ncmlkeC5hdXRoLnYxLkxvZ291dEFsbFJlcXVlc3QaIC5ncmlkeC5hdXRoLnYxLkxvZ291dEFsbFJlc3BvbnNlQkhaRmdpdGh1Yi5jb20vcDJwLWVuZXJneS10cmFkaW5nLXBsYXRmb3JtL2dvLXNkay9nZW4vZ3JpZHgvYXV0aC92MTthdXRodjFiBnByb3RvMw");
+  fileDesc("ChhncmlkeC9hdXRoL3YxL2F1dGgucHJvdG8SDWdyaWR4LmF1dGgudjEiMgoPUmVnaXN0ZXJSZXF1ZXN0Eg0KBWVtYWlsGAEgASgJEhAKCHBhc3N3b3JkGAIgASgJIlYKEFJlZ2lzdGVyUmVzcG9uc2USDwoHdXNlcl9pZBgBIAEoCRINCgVlbWFpbBgCIAEoCRIOCgZzdGF0dXMYAyABKAkSEgoKY3JlYXRlZF9hdBgEIAEoCSIvCgxMb2dpblJlcXVlc3QSDQoFZW1haWwYASABKAkSEAoIcGFzc3dvcmQYAiABKAkicAoNTG9naW5SZXNwb25zZRIPCgd1c2VyX2lkGAEgASgJEg0KBWVtYWlsGAIgASgJEhQKDGFjY2Vzc190b2tlbhgDIAEoCRIVCg1yZWZyZXNoX3Rva2VuGAQgASgJEhIKCmV4cGlyZXNfaW4YBSABKAMiJgoNTG9nb3V0UmVxdWVzdBIVCg1yZWZyZXNoX3Rva2VuGAEgASgJIiEKDkxvZ291dFJlc3BvbnNlEg8KB3N1Y2Nlc3MYASABKAgiEgoQTG9nb3V0QWxsUmVxdWVzdCIkChFMb2dvdXRBbGxSZXNwb25zZRIPCgdzdWNjZXNzGAEgASgIIngKC1VzZXJQcm9maWxlEg8KB3VzZXJfaWQYASABKAkSDQoFZW1haWwYAiABKAkSEgoKZmlyc3RfbmFtZRgDIAEoCRIRCglsYXN0X25hbWUYBCABKAkSDgoGc3RhdHVzGAUgASgJEhIKCmNyZWF0ZWRfYXQYBiABKAkiEwoRR2V0UHJvZmlsZVJlcXVlc3QiQQoSR2V0UHJvZmlsZVJlc3BvbnNlEisKB3Byb2ZpbGUYASABKAsyGi5ncmlkeC5hdXRoLnYxLlVzZXJQcm9maWxlIj0KFFVwZGF0ZVByb2ZpbGVSZXF1ZXN0EhIKCmZpcnN0X25hbWUYASABKAkSEQoJbGFzdF9uYW1lGAIgASgJIkQKFVVwZGF0ZVByb2ZpbGVSZXNwb25zZRIrCgdwcm9maWxlGAEgASgLMhouZ3JpZHguYXV0aC52MS5Vc2VyUHJvZmlsZSJHChVDaGFuZ2VQYXNzd29yZFJlcXVlc3QSGAoQY3VycmVudF9wYXNzd29yZBgBIAEoCRIUCgxuZXdfcGFzc3dvcmQYAiABKAkiKQoWQ2hhbmdlUGFzc3dvcmRSZXNwb25zZRIPCgdzdWNjZXNzGAEgASgIIiwKG1JlcXVlc3RQYXNzd29yZFJlc2V0UmVxdWVzdBINCgVlbWFpbBgBIAEoCSIvChxSZXF1ZXN0UGFzc3dvcmRSZXNldFJlc3BvbnNlEg8KB3N1Y2Nlc3MYASABKAgiOwoUUmVzZXRQYXNzd29yZFJlcXVlc3QSDQoFdG9rZW4YASABKAkSFAoMbmV3X3Bhc3N3b3JkGAIgASgJIigKFVJlc2V0UGFzc3dvcmRSZXNwb25zZRIPCgdzdWNjZXNzGAEgASgIIi4KGVJlcXVlc3RFbWFpbENoYW5nZVJlcXVlc3QSEQoJbmV3X2VtYWlsGAEgASgJIi0KGlJlcXVlc3RFbWFpbENoYW5nZVJlc3BvbnNlEg8KB3N1Y2Nlc3MYASABKAgiKQoYVmVyaWZ5RW1haWxDaGFuZ2VSZXF1ZXN0Eg0KBXRva2VuGAEgASgJIkgKGVZlcmlmeUVtYWlsQ2hhbmdlUmVzcG9uc2USKwoHcHJvZmlsZRgBIAEoCzIaLmdyaWR4LmF1dGgudjEuVXNlclByb2ZpbGUy4wcKC0F1dGhTZXJ2aWNlEksKCFJlZ2lzdGVyEh4uZ3JpZHguYXV0aC52MS5SZWdpc3RlclJlcXVlc3QaHy5ncmlkeC5hdXRoLnYxLlJlZ2lzdGVyUmVzcG9uc2USQgoFTG9naW4SGy5ncmlkeC5hdXRoLnYxLkxvZ2luUmVxdWVzdBocLmdyaWR4LmF1dGgudjEuTG9naW5SZXNwb25zZRJFCgZMb2dvdXQSHC5ncmlkeC5hdXRoLnYxLkxvZ291dFJlcXVlc3QaHS5ncmlkeC5hdXRoLnYxLkxvZ291dFJlc3BvbnNlEk4KCUxvZ291dEFsbBIfLmdyaWR4LmF1dGgudjEuTG9nb3V0QWxsUmVxdWVzdBogLmdyaWR4LmF1dGgudjEuTG9nb3V0QWxsUmVzcG9uc2USUQoKR2V0UHJvZmlsZRIgLmdyaWR4LmF1dGgudjEuR2V0UHJvZmlsZVJlcXVlc3QaIS5ncmlkeC5hdXRoLnYxLkdldFByb2ZpbGVSZXNwb25zZRJaCg1VcGRhdGVQcm9maWxlEiMuZ3JpZHguYXV0aC52MS5VcGRhdGVQcm9maWxlUmVxdWVzdBokLmdyaWR4LmF1dGgudjEuVXBkYXRlUHJvZmlsZVJlc3BvbnNlEl0KDkNoYW5nZVBhc3N3b3JkEiQuZ3JpZHguYXV0aC52MS5DaGFuZ2VQYXNzd29yZFJlcXVlc3QaJS5ncmlkeC5hdXRoLnYxLkNoYW5nZVBhc3N3b3JkUmVzcG9uc2USbwoUUmVxdWVzdFBhc3N3b3JkUmVzZXQSKi5ncmlkeC5hdXRoLnYxLlJlcXVlc3RQYXNzd29yZFJlc2V0UmVxdWVzdBorLmdyaWR4LmF1dGgudjEuUmVxdWVzdFBhc3N3b3JkUmVzZXRSZXNwb25zZRJaCg1SZXNldFBhc3N3b3JkEiMuZ3JpZHguYXV0aC52MS5SZXNldFBhc3N3b3JkUmVxdWVzdBokLmdyaWR4LmF1dGgudjEuUmVzZXRQYXNzd29yZFJlc3BvbnNlEmkKElJlcXVlc3RFbWFpbENoYW5nZRIoLmdyaWR4LmF1dGgudjEuUmVxdWVzdEVtYWlsQ2hhbmdlUmVxdWVzdBopLmdyaWR4LmF1dGgudjEuUmVxdWVzdEVtYWlsQ2hhbmdlUmVzcG9uc2USZgoRVmVyaWZ5RW1haWxDaGFuZ2USJy5ncmlkeC5hdXRoLnYxLlZlcmlmeUVtYWlsQ2hhbmdlUmVxdWVzdBooLmdyaWR4LmF1dGgudjEuVmVyaWZ5RW1haWxDaGFuZ2VSZXNwb25zZUJIWkZnaXRodWIuY29tL3AycC1lbmVyZ3ktdHJhZGluZy1wbGF0Zm9ybS9nby1zZGsvZ2VuL2dyaWR4L2F1dGgvdjE7YXV0aHYxYgZwcm90bzM");
 
 /**
  * @generated from message gridx.auth.v1.RegisterRequest
@@ -190,6 +190,297 @@ export const LogoutAllResponseSchema: GenMessage<LogoutAllResponse> = /*@__PURE_
   messageDesc(file_gridx_auth_v1_auth, 7);
 
 /**
+ * @generated from message gridx.auth.v1.UserProfile
+ */
+export type UserProfile = Message<"gridx.auth.v1.UserProfile"> & {
+  /**
+   * @generated from field: string user_id = 1;
+   */
+  userId: string;
+
+  /**
+   * @generated from field: string email = 2;
+   */
+  email: string;
+
+  /**
+   * @generated from field: string first_name = 3;
+   */
+  firstName: string;
+
+  /**
+   * @generated from field: string last_name = 4;
+   */
+  lastName: string;
+
+  /**
+   * @generated from field: string status = 5;
+   */
+  status: string;
+
+  /**
+   * @generated from field: string created_at = 6;
+   */
+  createdAt: string;
+};
+
+/**
+ * Describes the message gridx.auth.v1.UserProfile.
+ * Use `create(UserProfileSchema)` to create a new message.
+ */
+export const UserProfileSchema: GenMessage<UserProfile> = /*@__PURE__*/
+  messageDesc(file_gridx_auth_v1_auth, 8);
+
+/**
+ * @generated from message gridx.auth.v1.GetProfileRequest
+ */
+export type GetProfileRequest = Message<"gridx.auth.v1.GetProfileRequest"> & {
+};
+
+/**
+ * Describes the message gridx.auth.v1.GetProfileRequest.
+ * Use `create(GetProfileRequestSchema)` to create a new message.
+ */
+export const GetProfileRequestSchema: GenMessage<GetProfileRequest> = /*@__PURE__*/
+  messageDesc(file_gridx_auth_v1_auth, 9);
+
+/**
+ * @generated from message gridx.auth.v1.GetProfileResponse
+ */
+export type GetProfileResponse = Message<"gridx.auth.v1.GetProfileResponse"> & {
+  /**
+   * @generated from field: gridx.auth.v1.UserProfile profile = 1;
+   */
+  profile?: UserProfile | undefined;
+};
+
+/**
+ * Describes the message gridx.auth.v1.GetProfileResponse.
+ * Use `create(GetProfileResponseSchema)` to create a new message.
+ */
+export const GetProfileResponseSchema: GenMessage<GetProfileResponse> = /*@__PURE__*/
+  messageDesc(file_gridx_auth_v1_auth, 10);
+
+/**
+ * @generated from message gridx.auth.v1.UpdateProfileRequest
+ */
+export type UpdateProfileRequest = Message<"gridx.auth.v1.UpdateProfileRequest"> & {
+  /**
+   * @generated from field: string first_name = 1;
+   */
+  firstName: string;
+
+  /**
+   * @generated from field: string last_name = 2;
+   */
+  lastName: string;
+};
+
+/**
+ * Describes the message gridx.auth.v1.UpdateProfileRequest.
+ * Use `create(UpdateProfileRequestSchema)` to create a new message.
+ */
+export const UpdateProfileRequestSchema: GenMessage<UpdateProfileRequest> = /*@__PURE__*/
+  messageDesc(file_gridx_auth_v1_auth, 11);
+
+/**
+ * @generated from message gridx.auth.v1.UpdateProfileResponse
+ */
+export type UpdateProfileResponse = Message<"gridx.auth.v1.UpdateProfileResponse"> & {
+  /**
+   * @generated from field: gridx.auth.v1.UserProfile profile = 1;
+   */
+  profile?: UserProfile | undefined;
+};
+
+/**
+ * Describes the message gridx.auth.v1.UpdateProfileResponse.
+ * Use `create(UpdateProfileResponseSchema)` to create a new message.
+ */
+export const UpdateProfileResponseSchema: GenMessage<UpdateProfileResponse> = /*@__PURE__*/
+  messageDesc(file_gridx_auth_v1_auth, 12);
+
+/**
+ * @generated from message gridx.auth.v1.ChangePasswordRequest
+ */
+export type ChangePasswordRequest = Message<"gridx.auth.v1.ChangePasswordRequest"> & {
+  /**
+   * @generated from field: string current_password = 1;
+   */
+  currentPassword: string;
+
+  /**
+   * @generated from field: string new_password = 2;
+   */
+  newPassword: string;
+};
+
+/**
+ * Describes the message gridx.auth.v1.ChangePasswordRequest.
+ * Use `create(ChangePasswordRequestSchema)` to create a new message.
+ */
+export const ChangePasswordRequestSchema: GenMessage<ChangePasswordRequest> = /*@__PURE__*/
+  messageDesc(file_gridx_auth_v1_auth, 13);
+
+/**
+ * @generated from message gridx.auth.v1.ChangePasswordResponse
+ */
+export type ChangePasswordResponse = Message<"gridx.auth.v1.ChangePasswordResponse"> & {
+  /**
+   * @generated from field: bool success = 1;
+   */
+  success: boolean;
+};
+
+/**
+ * Describes the message gridx.auth.v1.ChangePasswordResponse.
+ * Use `create(ChangePasswordResponseSchema)` to create a new message.
+ */
+export const ChangePasswordResponseSchema: GenMessage<ChangePasswordResponse> = /*@__PURE__*/
+  messageDesc(file_gridx_auth_v1_auth, 14);
+
+/**
+ * @generated from message gridx.auth.v1.RequestPasswordResetRequest
+ */
+export type RequestPasswordResetRequest = Message<"gridx.auth.v1.RequestPasswordResetRequest"> & {
+  /**
+   * @generated from field: string email = 1;
+   */
+  email: string;
+};
+
+/**
+ * Describes the message gridx.auth.v1.RequestPasswordResetRequest.
+ * Use `create(RequestPasswordResetRequestSchema)` to create a new message.
+ */
+export const RequestPasswordResetRequestSchema: GenMessage<RequestPasswordResetRequest> = /*@__PURE__*/
+  messageDesc(file_gridx_auth_v1_auth, 15);
+
+/**
+ * @generated from message gridx.auth.v1.RequestPasswordResetResponse
+ */
+export type RequestPasswordResetResponse = Message<"gridx.auth.v1.RequestPasswordResetResponse"> & {
+  /**
+   * @generated from field: bool success = 1;
+   */
+  success: boolean;
+};
+
+/**
+ * Describes the message gridx.auth.v1.RequestPasswordResetResponse.
+ * Use `create(RequestPasswordResetResponseSchema)` to create a new message.
+ */
+export const RequestPasswordResetResponseSchema: GenMessage<RequestPasswordResetResponse> = /*@__PURE__*/
+  messageDesc(file_gridx_auth_v1_auth, 16);
+
+/**
+ * @generated from message gridx.auth.v1.ResetPasswordRequest
+ */
+export type ResetPasswordRequest = Message<"gridx.auth.v1.ResetPasswordRequest"> & {
+  /**
+   * @generated from field: string token = 1;
+   */
+  token: string;
+
+  /**
+   * @generated from field: string new_password = 2;
+   */
+  newPassword: string;
+};
+
+/**
+ * Describes the message gridx.auth.v1.ResetPasswordRequest.
+ * Use `create(ResetPasswordRequestSchema)` to create a new message.
+ */
+export const ResetPasswordRequestSchema: GenMessage<ResetPasswordRequest> = /*@__PURE__*/
+  messageDesc(file_gridx_auth_v1_auth, 17);
+
+/**
+ * @generated from message gridx.auth.v1.ResetPasswordResponse
+ */
+export type ResetPasswordResponse = Message<"gridx.auth.v1.ResetPasswordResponse"> & {
+  /**
+   * @generated from field: bool success = 1;
+   */
+  success: boolean;
+};
+
+/**
+ * Describes the message gridx.auth.v1.ResetPasswordResponse.
+ * Use `create(ResetPasswordResponseSchema)` to create a new message.
+ */
+export const ResetPasswordResponseSchema: GenMessage<ResetPasswordResponse> = /*@__PURE__*/
+  messageDesc(file_gridx_auth_v1_auth, 18);
+
+/**
+ * @generated from message gridx.auth.v1.RequestEmailChangeRequest
+ */
+export type RequestEmailChangeRequest = Message<"gridx.auth.v1.RequestEmailChangeRequest"> & {
+  /**
+   * @generated from field: string new_email = 1;
+   */
+  newEmail: string;
+};
+
+/**
+ * Describes the message gridx.auth.v1.RequestEmailChangeRequest.
+ * Use `create(RequestEmailChangeRequestSchema)` to create a new message.
+ */
+export const RequestEmailChangeRequestSchema: GenMessage<RequestEmailChangeRequest> = /*@__PURE__*/
+  messageDesc(file_gridx_auth_v1_auth, 19);
+
+/**
+ * @generated from message gridx.auth.v1.RequestEmailChangeResponse
+ */
+export type RequestEmailChangeResponse = Message<"gridx.auth.v1.RequestEmailChangeResponse"> & {
+  /**
+   * @generated from field: bool success = 1;
+   */
+  success: boolean;
+};
+
+/**
+ * Describes the message gridx.auth.v1.RequestEmailChangeResponse.
+ * Use `create(RequestEmailChangeResponseSchema)` to create a new message.
+ */
+export const RequestEmailChangeResponseSchema: GenMessage<RequestEmailChangeResponse> = /*@__PURE__*/
+  messageDesc(file_gridx_auth_v1_auth, 20);
+
+/**
+ * @generated from message gridx.auth.v1.VerifyEmailChangeRequest
+ */
+export type VerifyEmailChangeRequest = Message<"gridx.auth.v1.VerifyEmailChangeRequest"> & {
+  /**
+   * @generated from field: string token = 1;
+   */
+  token: string;
+};
+
+/**
+ * Describes the message gridx.auth.v1.VerifyEmailChangeRequest.
+ * Use `create(VerifyEmailChangeRequestSchema)` to create a new message.
+ */
+export const VerifyEmailChangeRequestSchema: GenMessage<VerifyEmailChangeRequest> = /*@__PURE__*/
+  messageDesc(file_gridx_auth_v1_auth, 21);
+
+/**
+ * @generated from message gridx.auth.v1.VerifyEmailChangeResponse
+ */
+export type VerifyEmailChangeResponse = Message<"gridx.auth.v1.VerifyEmailChangeResponse"> & {
+  /**
+   * @generated from field: gridx.auth.v1.UserProfile profile = 1;
+   */
+  profile?: UserProfile | undefined;
+};
+
+/**
+ * Describes the message gridx.auth.v1.VerifyEmailChangeResponse.
+ * Use `create(VerifyEmailChangeResponseSchema)` to create a new message.
+ */
+export const VerifyEmailChangeResponseSchema: GenMessage<VerifyEmailChangeResponse> = /*@__PURE__*/
+  messageDesc(file_gridx_auth_v1_auth, 22);
+
+/**
  * @generated from service gridx.auth.v1.AuthService
  */
 export const AuthService: GenService<{
@@ -224,6 +515,62 @@ export const AuthService: GenService<{
     methodKind: "unary";
     input: typeof LogoutAllRequestSchema;
     output: typeof LogoutAllResponseSchema;
+  },
+  /**
+   * @generated from rpc gridx.auth.v1.AuthService.GetProfile
+   */
+  getProfile: {
+    methodKind: "unary";
+    input: typeof GetProfileRequestSchema;
+    output: typeof GetProfileResponseSchema;
+  },
+  /**
+   * @generated from rpc gridx.auth.v1.AuthService.UpdateProfile
+   */
+  updateProfile: {
+    methodKind: "unary";
+    input: typeof UpdateProfileRequestSchema;
+    output: typeof UpdateProfileResponseSchema;
+  },
+  /**
+   * @generated from rpc gridx.auth.v1.AuthService.ChangePassword
+   */
+  changePassword: {
+    methodKind: "unary";
+    input: typeof ChangePasswordRequestSchema;
+    output: typeof ChangePasswordResponseSchema;
+  },
+  /**
+   * @generated from rpc gridx.auth.v1.AuthService.RequestPasswordReset
+   */
+  requestPasswordReset: {
+    methodKind: "unary";
+    input: typeof RequestPasswordResetRequestSchema;
+    output: typeof RequestPasswordResetResponseSchema;
+  },
+  /**
+   * @generated from rpc gridx.auth.v1.AuthService.ResetPassword
+   */
+  resetPassword: {
+    methodKind: "unary";
+    input: typeof ResetPasswordRequestSchema;
+    output: typeof ResetPasswordResponseSchema;
+  },
+  /**
+   * @generated from rpc gridx.auth.v1.AuthService.RequestEmailChange
+   */
+  requestEmailChange: {
+    methodKind: "unary";
+    input: typeof RequestEmailChangeRequestSchema;
+    output: typeof RequestEmailChangeResponseSchema;
+  },
+  /**
+   * @generated from rpc gridx.auth.v1.AuthService.VerifyEmailChange
+   */
+  verifyEmailChange: {
+    methodKind: "unary";
+    input: typeof VerifyEmailChangeRequestSchema;
+    output: typeof VerifyEmailChangeResponseSchema;
   },
 }> = /*@__PURE__*/
   serviceDesc(file_gridx_auth_v1_auth, 0);

@@ -3,7 +3,7 @@
 /* eslint-disable */
 // @ts-nocheck
 
-import { LoginRequest, LoginResponse, LogoutAllRequest, LogoutAllResponse, LogoutRequest, LogoutResponse, RegisterRequest, RegisterResponse } from "./auth_pb.js";
+import { ChangePasswordRequest, ChangePasswordResponse, GetProfileRequest, GetProfileResponse, LoginRequest, LoginResponse, LogoutAllRequest, LogoutAllResponse, LogoutRequest, LogoutResponse, RegisterRequest, RegisterResponse, RequestEmailChangeRequest, RequestEmailChangeResponse, RequestPasswordResetRequest, RequestPasswordResetResponse, ResetPasswordRequest, ResetPasswordResponse, UpdateProfileRequest, UpdateProfileResponse, VerifyEmailChangeRequest, VerifyEmailChangeResponse } from "./auth_pb.js";
 import { MethodKind } from "@bufbuild/protobuf";
 
 /**
@@ -46,6 +46,69 @@ export const AuthService = {
       name: "LogoutAll",
       I: LogoutAllRequest,
       O: LogoutAllResponse,
+      kind: MethodKind.Unary,
+    },
+    /**
+     * @generated from rpc gridx.auth.v1.AuthService.GetProfile
+     */
+    getProfile: {
+      name: "GetProfile",
+      I: GetProfileRequest,
+      O: GetProfileResponse,
+      kind: MethodKind.Unary,
+    },
+    /**
+     * @generated from rpc gridx.auth.v1.AuthService.UpdateProfile
+     */
+    updateProfile: {
+      name: "UpdateProfile",
+      I: UpdateProfileRequest,
+      O: UpdateProfileResponse,
+      kind: MethodKind.Unary,
+    },
+    /**
+     * @generated from rpc gridx.auth.v1.AuthService.ChangePassword
+     */
+    changePassword: {
+      name: "ChangePassword",
+      I: ChangePasswordRequest,
+      O: ChangePasswordResponse,
+      kind: MethodKind.Unary,
+    },
+    /**
+     * @generated from rpc gridx.auth.v1.AuthService.RequestPasswordReset
+     */
+    requestPasswordReset: {
+      name: "RequestPasswordReset",
+      I: RequestPasswordResetRequest,
+      O: RequestPasswordResetResponse,
+      kind: MethodKind.Unary,
+    },
+    /**
+     * @generated from rpc gridx.auth.v1.AuthService.ResetPassword
+     */
+    resetPassword: {
+      name: "ResetPassword",
+      I: ResetPasswordRequest,
+      O: ResetPasswordResponse,
+      kind: MethodKind.Unary,
+    },
+    /**
+     * @generated from rpc gridx.auth.v1.AuthService.RequestEmailChange
+     */
+    requestEmailChange: {
+      name: "RequestEmailChange",
+      I: RequestEmailChangeRequest,
+      O: RequestEmailChangeResponse,
+      kind: MethodKind.Unary,
+    },
+    /**
+     * @generated from rpc gridx.auth.v1.AuthService.VerifyEmailChange
+     */
+    verifyEmailChange: {
+      name: "VerifyEmailChange",
+      I: VerifyEmailChangeRequest,
+      O: VerifyEmailChangeResponse,
       kind: MethodKind.Unary,
     },
   }
