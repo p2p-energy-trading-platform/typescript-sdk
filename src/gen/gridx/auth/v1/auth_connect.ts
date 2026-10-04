@@ -3,7 +3,7 @@
 /* eslint-disable */
 // @ts-nocheck
 
-import { ChangePasswordRequest, ChangePasswordResponse, GetProfileRequest, GetProfileResponse, LoginRequest, LoginResponse, LogoutAllRequest, LogoutAllResponse, LogoutRequest, LogoutResponse, RegisterRequest, RegisterResponse, RequestEmailChangeRequest, RequestEmailChangeResponse, RequestPasswordResetRequest, RequestPasswordResetResponse, ResetPasswordRequest, ResetPasswordResponse, UpdateProfileRequest, UpdateProfileResponse, VerifyEmailChangeRequest, VerifyEmailChangeResponse } from "./auth_pb.js";
+import { ChangePasswordRequest, ChangePasswordResponse, CheckPermissionRequest, CheckPermissionResponse, GetProfileRequest, GetProfileResponse, GetUserRequest, GetUserResponse, LoginRequest, LoginResponse, LogoutAllRequest, LogoutAllResponse, LogoutRequest, LogoutResponse, RegisterRequest, RegisterResponse, RequestEmailChangeRequest, RequestEmailChangeResponse, RequestPasswordResetRequest, RequestPasswordResetResponse, ResetPasswordRequest, ResetPasswordResponse, UpdateProfileRequest, UpdateProfileResponse, VerifyEmailChangeRequest, VerifyEmailChangeResponse } from "./auth_pb.js";
 import { MethodKind } from "@bufbuild/protobuf";
 
 /**
@@ -109,6 +109,24 @@ export const AuthService = {
       name: "VerifyEmailChange",
       I: VerifyEmailChangeRequest,
       O: VerifyEmailChangeResponse,
+      kind: MethodKind.Unary,
+    },
+    /**
+     * @generated from rpc gridx.auth.v1.AuthService.GetUser
+     */
+    getUser: {
+      name: "GetUser",
+      I: GetUserRequest,
+      O: GetUserResponse,
+      kind: MethodKind.Unary,
+    },
+    /**
+     * @generated from rpc gridx.auth.v1.AuthService.CheckPermission
+     */
+    checkPermission: {
+      name: "CheckPermission",
+      I: CheckPermissionRequest,
+      O: CheckPermissionResponse,
       kind: MethodKind.Unary,
     },
   }

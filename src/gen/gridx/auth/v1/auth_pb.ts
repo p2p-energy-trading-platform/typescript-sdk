@@ -10,7 +10,7 @@ import type { Message } from "@bufbuild/protobuf";
  * Describes the file gridx/auth/v1/auth.proto.
  */
 export const file_gridx_auth_v1_auth: GenFile = /*@__PURE__*/
-  fileDesc("ChhncmlkeC9hdXRoL3YxL2F1dGgucHJvdG8SDWdyaWR4LmF1dGgudjEiMgoPUmVnaXN0ZXJSZXF1ZXN0Eg0KBWVtYWlsGAEgASgJEhAKCHBhc3N3b3JkGAIgASgJImQKEFJlZ2lzdGVyUmVzcG9uc2USDwoHdXNlcl9pZBgBIAEoCRINCgVlbWFpbBgCIAEoCRIOCgZzdGF0dXMYAyABKAkSEgoKY3JlYXRlZF9hdBgEIAEoCRIMCgRuYW1lGAUgASgJIi8KDExvZ2luUmVxdWVzdBINCgVlbWFpbBgBIAEoCRIQCghwYXNzd29yZBgCIAEoCSJwCg1Mb2dpblJlc3BvbnNlEg8KB3VzZXJfaWQYASABKAkSDQoFZW1haWwYAiABKAkSFAoMYWNjZXNzX3Rva2VuGAMgASgJEhUKDXJlZnJlc2hfdG9rZW4YBCABKAkSEgoKZXhwaXJlc19pbhgFIAEoAyImCg1Mb2dvdXRSZXF1ZXN0EhUKDXJlZnJlc2hfdG9rZW4YASABKAkiIQoOTG9nb3V0UmVzcG9uc2USDwoHc3VjY2VzcxgBIAEoCCISChBMb2dvdXRBbGxSZXF1ZXN0IiQKEUxvZ291dEFsbFJlc3BvbnNlEg8KB3N1Y2Nlc3MYASABKAgiggEKC1VzZXJQcm9maWxlEg8KB3VzZXJfaWQYASABKAkSDQoFZW1haWwYAiABKAkSDgoGc3RhdHVzGAUgASgJEhIKCmNyZWF0ZWRfYXQYBiABKAkSDAoEbmFtZRgHIAEoCUoECAMQBEoECAQQBVIKZmlyc3RfbmFtZVIJbGFzdF9uYW1lIhMKEUdldFByb2ZpbGVSZXF1ZXN0IkEKEkdldFByb2ZpbGVSZXNwb25zZRIrCgdwcm9maWxlGAEgASgLMhouZ3JpZHguYXV0aC52MS5Vc2VyUHJvZmlsZSJHChRVcGRhdGVQcm9maWxlUmVxdWVzdBIMCgRuYW1lGAMgASgJSgQIARACSgQIAhADUgpmaXJzdF9uYW1lUglsYXN0X25hbWUiRAoVVXBkYXRlUHJvZmlsZVJlc3BvbnNlEisKB3Byb2ZpbGUYASABKAsyGi5ncmlkeC5hdXRoLnYxLlVzZXJQcm9maWxlIkcKFUNoYW5nZVBhc3N3b3JkUmVxdWVzdBIYChBjdXJyZW50X3Bhc3N3b3JkGAEgASgJEhQKDG5ld19wYXNzd29yZBgCIAEoCSIpChZDaGFuZ2VQYXNzd29yZFJlc3BvbnNlEg8KB3N1Y2Nlc3MYASABKAgiLAobUmVxdWVzdFBhc3N3b3JkUmVzZXRSZXF1ZXN0Eg0KBWVtYWlsGAEgASgJIi8KHFJlcXVlc3RQYXNzd29yZFJlc2V0UmVzcG9uc2USDwoHc3VjY2VzcxgBIAEoCCI7ChRSZXNldFBhc3N3b3JkUmVxdWVzdBINCgV0b2tlbhgBIAEoCRIUCgxuZXdfcGFzc3dvcmQYAiABKAkiKAoVUmVzZXRQYXNzd29yZFJlc3BvbnNlEg8KB3N1Y2Nlc3MYASABKAgiLgoZUmVxdWVzdEVtYWlsQ2hhbmdlUmVxdWVzdBIRCgluZXdfZW1haWwYASABKAkiLQoaUmVxdWVzdEVtYWlsQ2hhbmdlUmVzcG9uc2USDwoHc3VjY2VzcxgBIAEoCCIpChhWZXJpZnlFbWFpbENoYW5nZVJlcXVlc3QSDQoFdG9rZW4YASABKAkiSAoZVmVyaWZ5RW1haWxDaGFuZ2VSZXNwb25zZRIrCgdwcm9maWxlGAEgASgLMhouZ3JpZHguYXV0aC52MS5Vc2VyUHJvZmlsZTLjBwoLQXV0aFNlcnZpY2USSwoIUmVnaXN0ZXISHi5ncmlkeC5hdXRoLnYxLlJlZ2lzdGVyUmVxdWVzdBofLmdyaWR4LmF1dGgudjEuUmVnaXN0ZXJSZXNwb25zZRJCCgVMb2dpbhIbLmdyaWR4LmF1dGgudjEuTG9naW5SZXF1ZXN0GhwuZ3JpZHguYXV0aC52MS5Mb2dpblJlc3BvbnNlEkUKBkxvZ291dBIcLmdyaWR4LmF1dGgudjEuTG9nb3V0UmVxdWVzdBodLmdyaWR4LmF1dGgudjEuTG9nb3V0UmVzcG9uc2USTgoJTG9nb3V0QWxsEh8uZ3JpZHguYXV0aC52MS5Mb2dvdXRBbGxSZXF1ZXN0GiAuZ3JpZHguYXV0aC52MS5Mb2dvdXRBbGxSZXNwb25zZRJRCgpHZXRQcm9maWxlEiAuZ3JpZHguYXV0aC52MS5HZXRQcm9maWxlUmVxdWVzdBohLmdyaWR4LmF1dGgudjEuR2V0UHJvZmlsZVJlc3BvbnNlEloKDVVwZGF0ZVByb2ZpbGUSIy5ncmlkeC5hdXRoLnYxLlVwZGF0ZVByb2ZpbGVSZXF1ZXN0GiQuZ3JpZHguYXV0aC52MS5VcGRhdGVQcm9maWxlUmVzcG9uc2USXQoOQ2hhbmdlUGFzc3dvcmQSJC5ncmlkeC5hdXRoLnYxLkNoYW5nZVBhc3N3b3JkUmVxdWVzdBolLmdyaWR4LmF1dGgudjEuQ2hhbmdlUGFzc3dvcmRSZXNwb25zZRJvChRSZXF1ZXN0UGFzc3dvcmRSZXNldBIqLmdyaWR4LmF1dGgudjEuUmVxdWVzdFBhc3N3b3JkUmVzZXRSZXF1ZXN0GisuZ3JpZHguYXV0aC52MS5SZXF1ZXN0UGFzc3dvcmRSZXNldFJlc3BvbnNlEloKDVJlc2V0UGFzc3dvcmQSIy5ncmlkeC5hdXRoLnYxLlJlc2V0UGFzc3dvcmRSZXF1ZXN0GiQuZ3JpZHguYXV0aC52MS5SZXNldFBhc3N3b3JkUmVzcG9uc2USaQoSUmVxdWVzdEVtYWlsQ2hhbmdlEiguZ3JpZHguYXV0aC52MS5SZXF1ZXN0RW1haWxDaGFuZ2VSZXF1ZXN0GikuZ3JpZHguYXV0aC52MS5SZXF1ZXN0RW1haWxDaGFuZ2VSZXNwb25zZRJmChFWZXJpZnlFbWFpbENoYW5nZRInLmdyaWR4LmF1dGgudjEuVmVyaWZ5RW1haWxDaGFuZ2VSZXF1ZXN0GiguZ3JpZHguYXV0aC52MS5WZXJpZnlFbWFpbENoYW5nZVJlc3BvbnNlQkhaRmdpdGh1Yi5jb20vcDJwLWVuZXJneS10cmFkaW5nLXBsYXRmb3JtL2dvLXNkay9nZW4vZ3JpZHgvYXV0aC92MTthdXRodjFiBnByb3RvMw");
+  fileDesc("ChhncmlkeC9hdXRoL3YxL2F1dGgucHJvdG8SDWdyaWR4LmF1dGgudjEiMgoPUmVnaXN0ZXJSZXF1ZXN0Eg0KBWVtYWlsGAEgASgJEhAKCHBhc3N3b3JkGAIgASgJImQKEFJlZ2lzdGVyUmVzcG9uc2USDwoHdXNlcl9pZBgBIAEoCRINCgVlbWFpbBgCIAEoCRIOCgZzdGF0dXMYAyABKAkSEgoKY3JlYXRlZF9hdBgEIAEoCRIMCgRuYW1lGAUgASgJIi8KDExvZ2luUmVxdWVzdBINCgVlbWFpbBgBIAEoCRIQCghwYXNzd29yZBgCIAEoCSJwCg1Mb2dpblJlc3BvbnNlEg8KB3VzZXJfaWQYASABKAkSDQoFZW1haWwYAiABKAkSFAoMYWNjZXNzX3Rva2VuGAMgASgJEhUKDXJlZnJlc2hfdG9rZW4YBCABKAkSEgoKZXhwaXJlc19pbhgFIAEoAyImCg1Mb2dvdXRSZXF1ZXN0EhUKDXJlZnJlc2hfdG9rZW4YASABKAkiIQoOTG9nb3V0UmVzcG9uc2USDwoHc3VjY2VzcxgBIAEoCCISChBMb2dvdXRBbGxSZXF1ZXN0IiQKEUxvZ291dEFsbFJlc3BvbnNlEg8KB3N1Y2Nlc3MYASABKAgiggEKC1VzZXJQcm9maWxlEg8KB3VzZXJfaWQYASABKAkSDQoFZW1haWwYAiABKAkSDgoGc3RhdHVzGAUgASgJEhIKCmNyZWF0ZWRfYXQYBiABKAkSDAoEbmFtZRgHIAEoCUoECAMQBEoECAQQBVIKZmlyc3RfbmFtZVIJbGFzdF9uYW1lIhMKEUdldFByb2ZpbGVSZXF1ZXN0IkEKEkdldFByb2ZpbGVSZXNwb25zZRIrCgdwcm9maWxlGAEgASgLMhouZ3JpZHguYXV0aC52MS5Vc2VyUHJvZmlsZSJHChRVcGRhdGVQcm9maWxlUmVxdWVzdBIMCgRuYW1lGAMgASgJSgQIARACSgQIAhADUgpmaXJzdF9uYW1lUglsYXN0X25hbWUiRAoVVXBkYXRlUHJvZmlsZVJlc3BvbnNlEisKB3Byb2ZpbGUYASABKAsyGi5ncmlkeC5hdXRoLnYxLlVzZXJQcm9maWxlIkcKFUNoYW5nZVBhc3N3b3JkUmVxdWVzdBIYChBjdXJyZW50X3Bhc3N3b3JkGAEgASgJEhQKDG5ld19wYXNzd29yZBgCIAEoCSIpChZDaGFuZ2VQYXNzd29yZFJlc3BvbnNlEg8KB3N1Y2Nlc3MYASABKAgiLAobUmVxdWVzdFBhc3N3b3JkUmVzZXRSZXF1ZXN0Eg0KBWVtYWlsGAEgASgJIi8KHFJlcXVlc3RQYXNzd29yZFJlc2V0UmVzcG9uc2USDwoHc3VjY2VzcxgBIAEoCCI7ChRSZXNldFBhc3N3b3JkUmVxdWVzdBINCgV0b2tlbhgBIAEoCRIUCgxuZXdfcGFzc3dvcmQYAiABKAkiKAoVUmVzZXRQYXNzd29yZFJlc3BvbnNlEg8KB3N1Y2Nlc3MYASABKAgiLgoZUmVxdWVzdEVtYWlsQ2hhbmdlUmVxdWVzdBIRCgluZXdfZW1haWwYASABKAkiLQoaUmVxdWVzdEVtYWlsQ2hhbmdlUmVzcG9uc2USDwoHc3VjY2VzcxgBIAEoCCIpChhWZXJpZnlFbWFpbENoYW5nZVJlcXVlc3QSDQoFdG9rZW4YASABKAkiSAoZVmVyaWZ5RW1haWxDaGFuZ2VSZXNwb25zZRIrCgdwcm9maWxlGAEgASgLMhouZ3JpZHguYXV0aC52MS5Vc2VyUHJvZmlsZSIhCg5HZXRVc2VyUmVxdWVzdBIPCgd1c2VyX2lkGAEgASgJIl0KD0dldFVzZXJSZXNwb25zZRIPCgd1c2VyX2lkGAEgASgJEg0KBWVtYWlsGAIgASgJEg4KBnN0YXR1cxgDIAEoCRIMCgRyb2xlGAQgASgJEgwKBG5hbWUYBSABKAkiQgoWQ2hlY2tQZXJtaXNzaW9uUmVxdWVzdBIPCgd1c2VyX2lkGAEgASgJEhcKD3Blcm1pc3Npb25fbmFtZRgCIAEoCSIqChdDaGVja1Blcm1pc3Npb25SZXNwb25zZRIPCgdhbGxvd2VkGAEgASgIMo8JCgtBdXRoU2VydmljZRJLCghSZWdpc3RlchIeLmdyaWR4LmF1dGgudjEuUmVnaXN0ZXJSZXF1ZXN0Gh8uZ3JpZHguYXV0aC52MS5SZWdpc3RlclJlc3BvbnNlEkIKBUxvZ2luEhsuZ3JpZHguYXV0aC52MS5Mb2dpblJlcXVlc3QaHC5ncmlkeC5hdXRoLnYxLkxvZ2luUmVzcG9uc2USRQoGTG9nb3V0EhwuZ3JpZHguYXV0aC52MS5Mb2dvdXRSZXF1ZXN0Gh0uZ3JpZHguYXV0aC52MS5Mb2dvdXRSZXNwb25zZRJOCglMb2dvdXRBbGwSHy5ncmlkeC5hdXRoLnYxLkxvZ291dEFsbFJlcXVlc3QaIC5ncmlkeC5hdXRoLnYxLkxvZ291dEFsbFJlc3BvbnNlElEKCkdldFByb2ZpbGUSIC5ncmlkeC5hdXRoLnYxLkdldFByb2ZpbGVSZXF1ZXN0GiEuZ3JpZHguYXV0aC52MS5HZXRQcm9maWxlUmVzcG9uc2USWgoNVXBkYXRlUHJvZmlsZRIjLmdyaWR4LmF1dGgudjEuVXBkYXRlUHJvZmlsZVJlcXVlc3QaJC5ncmlkeC5hdXRoLnYxLlVwZGF0ZVByb2ZpbGVSZXNwb25zZRJdCg5DaGFuZ2VQYXNzd29yZBIkLmdyaWR4LmF1dGgudjEuQ2hhbmdlUGFzc3dvcmRSZXF1ZXN0GiUuZ3JpZHguYXV0aC52MS5DaGFuZ2VQYXNzd29yZFJlc3BvbnNlEm8KFFJlcXVlc3RQYXNzd29yZFJlc2V0EiouZ3JpZHguYXV0aC52MS5SZXF1ZXN0UGFzc3dvcmRSZXNldFJlcXVlc3QaKy5ncmlkeC5hdXRoLnYxLlJlcXVlc3RQYXNzd29yZFJlc2V0UmVzcG9uc2USWgoNUmVzZXRQYXNzd29yZBIjLmdyaWR4LmF1dGgudjEuUmVzZXRQYXNzd29yZFJlcXVlc3QaJC5ncmlkeC5hdXRoLnYxLlJlc2V0UGFzc3dvcmRSZXNwb25zZRJpChJSZXF1ZXN0RW1haWxDaGFuZ2USKC5ncmlkeC5hdXRoLnYxLlJlcXVlc3RFbWFpbENoYW5nZVJlcXVlc3QaKS5ncmlkeC5hdXRoLnYxLlJlcXVlc3RFbWFpbENoYW5nZVJlc3BvbnNlEmYKEVZlcmlmeUVtYWlsQ2hhbmdlEicuZ3JpZHguYXV0aC52MS5WZXJpZnlFbWFpbENoYW5nZVJlcXVlc3QaKC5ncmlkeC5hdXRoLnYxLlZlcmlmeUVtYWlsQ2hhbmdlUmVzcG9uc2USSAoHR2V0VXNlchIdLmdyaWR4LmF1dGgudjEuR2V0VXNlclJlcXVlc3QaHi5ncmlkeC5hdXRoLnYxLkdldFVzZXJSZXNwb25zZRJgCg9DaGVja1Blcm1pc3Npb24SJS5ncmlkeC5hdXRoLnYxLkNoZWNrUGVybWlzc2lvblJlcXVlc3QaJi5ncmlkeC5hdXRoLnYxLkNoZWNrUGVybWlzc2lvblJlc3BvbnNlQkhaRmdpdGh1Yi5jb20vcDJwLWVuZXJneS10cmFkaW5nLXBsYXRmb3JtL2dvLXNkay9nZW4vZ3JpZHgvYXV0aC92MTthdXRodjFiBnByb3RvMw");
 
 /**
  * @generated from message gridx.auth.v1.RegisterRequest
@@ -476,6 +476,99 @@ export const VerifyEmailChangeResponseSchema: GenMessage<VerifyEmailChangeRespon
   messageDesc(file_gridx_auth_v1_auth, 22);
 
 /**
+ * @generated from message gridx.auth.v1.GetUserRequest
+ */
+export type GetUserRequest = Message<"gridx.auth.v1.GetUserRequest"> & {
+  /**
+   * @generated from field: string user_id = 1;
+   */
+  userId: string;
+};
+
+/**
+ * Describes the message gridx.auth.v1.GetUserRequest.
+ * Use `create(GetUserRequestSchema)` to create a new message.
+ */
+export const GetUserRequestSchema: GenMessage<GetUserRequest> = /*@__PURE__*/
+  messageDesc(file_gridx_auth_v1_auth, 23);
+
+/**
+ * @generated from message gridx.auth.v1.GetUserResponse
+ */
+export type GetUserResponse = Message<"gridx.auth.v1.GetUserResponse"> & {
+  /**
+   * @generated from field: string user_id = 1;
+   */
+  userId: string;
+
+  /**
+   * @generated from field: string email = 2;
+   */
+  email: string;
+
+  /**
+   * @generated from field: string status = 3;
+   */
+  status: string;
+
+  /**
+   * @generated from field: string role = 4;
+   */
+  role: string;
+
+  /**
+   * @generated from field: string name = 5;
+   */
+  name: string;
+};
+
+/**
+ * Describes the message gridx.auth.v1.GetUserResponse.
+ * Use `create(GetUserResponseSchema)` to create a new message.
+ */
+export const GetUserResponseSchema: GenMessage<GetUserResponse> = /*@__PURE__*/
+  messageDesc(file_gridx_auth_v1_auth, 24);
+
+/**
+ * @generated from message gridx.auth.v1.CheckPermissionRequest
+ */
+export type CheckPermissionRequest = Message<"gridx.auth.v1.CheckPermissionRequest"> & {
+  /**
+   * @generated from field: string user_id = 1;
+   */
+  userId: string;
+
+  /**
+   * @generated from field: string permission_name = 2;
+   */
+  permissionName: string;
+};
+
+/**
+ * Describes the message gridx.auth.v1.CheckPermissionRequest.
+ * Use `create(CheckPermissionRequestSchema)` to create a new message.
+ */
+export const CheckPermissionRequestSchema: GenMessage<CheckPermissionRequest> = /*@__PURE__*/
+  messageDesc(file_gridx_auth_v1_auth, 25);
+
+/**
+ * @generated from message gridx.auth.v1.CheckPermissionResponse
+ */
+export type CheckPermissionResponse = Message<"gridx.auth.v1.CheckPermissionResponse"> & {
+  /**
+   * @generated from field: bool allowed = 1;
+   */
+  allowed: boolean;
+};
+
+/**
+ * Describes the message gridx.auth.v1.CheckPermissionResponse.
+ * Use `create(CheckPermissionResponseSchema)` to create a new message.
+ */
+export const CheckPermissionResponseSchema: GenMessage<CheckPermissionResponse> = /*@__PURE__*/
+  messageDesc(file_gridx_auth_v1_auth, 26);
+
+/**
  * @generated from service gridx.auth.v1.AuthService
  */
 export const AuthService: GenService<{
@@ -566,6 +659,22 @@ export const AuthService: GenService<{
     methodKind: "unary";
     input: typeof VerifyEmailChangeRequestSchema;
     output: typeof VerifyEmailChangeResponseSchema;
+  },
+  /**
+   * @generated from rpc gridx.auth.v1.AuthService.GetUser
+   */
+  getUser: {
+    methodKind: "unary";
+    input: typeof GetUserRequestSchema;
+    output: typeof GetUserResponseSchema;
+  },
+  /**
+   * @generated from rpc gridx.auth.v1.AuthService.CheckPermission
+   */
+  checkPermission: {
+    methodKind: "unary";
+    input: typeof CheckPermissionRequestSchema;
+    output: typeof CheckPermissionResponseSchema;
   },
 }> = /*@__PURE__*/
   serviceDesc(file_gridx_auth_v1_auth, 0);
