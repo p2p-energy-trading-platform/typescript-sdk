@@ -3,7 +3,7 @@
 /* eslint-disable */
 // @ts-nocheck
 
-import { ChangePasswordRequest, ChangePasswordResponse, CheckPermissionRequest, CheckPermissionResponse, GetProfileRequest, GetProfileResponse, GetUserRequest, GetUserResponse, LoginRequest, LoginResponse, LogoutAllRequest, LogoutAllResponse, LogoutRequest, LogoutResponse, RegisterRequest, RegisterResponse, RequestEmailChangeRequest, RequestEmailChangeResponse, RequestPasswordResetRequest, RequestPasswordResetResponse, ResetPasswordRequest, ResetPasswordResponse, UpdateProfileRequest, UpdateProfileResponse, VerifyEmailChangeRequest, VerifyEmailChangeResponse } from "./auth_pb.js";
+import { ChangePasswordRequest, ChangePasswordResponse, CheckPermissionRequest, CheckPermissionResponse, GetProfileRequest, GetProfileResponse, GetUserRequest, GetUserResponse, LoginRequest, LoginResponse, LogoutAllRequest, LogoutAllResponse, LogoutRequest, LogoutResponse, RefreshTokenRequest, RefreshTokenResponse, RegisterRequest, RegisterResponse, RequestEmailChangeRequest, RequestEmailChangeResponse, RequestPasswordResetRequest, RequestPasswordResetResponse, ResetPasswordRequest, ResetPasswordResponse, UpdateProfileRequest, UpdateProfileResponse, VerifyEmailChangeRequest, VerifyEmailChangeResponse } from "./auth_pb.js";
 import { MethodKind } from "@bufbuild/protobuf";
 
 /**
@@ -127,6 +127,15 @@ export const AuthService = {
       name: "CheckPermission",
       I: CheckPermissionRequest,
       O: CheckPermissionResponse,
+      kind: MethodKind.Unary,
+    },
+    /**
+     * @generated from rpc gridx.auth.v1.AuthService.RefreshToken
+     */
+    refreshToken: {
+      name: "RefreshToken",
+      I: RefreshTokenRequest,
+      O: RefreshTokenResponse,
       kind: MethodKind.Unary,
     },
   }
