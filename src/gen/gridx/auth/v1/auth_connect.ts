@@ -3,7 +3,7 @@
 /* eslint-disable */
 // @ts-nocheck
 
-import { ChangePasswordRequest, ChangePasswordResponse, CheckPermissionRequest, CheckPermissionResponse, GetProfileRequest, GetProfileResponse, GetUserRequest, GetUserResponse, LoginRequest, LoginResponse, LogoutAllRequest, LogoutAllResponse, LogoutRequest, LogoutResponse, RefreshTokenRequest, RefreshTokenResponse, RegisterRequest, RegisterResponse, RequestEmailChangeRequest, RequestEmailChangeResponse, RequestPasswordResetRequest, RequestPasswordResetResponse, ResetPasswordRequest, ResetPasswordResponse, UpdateProfileRequest, UpdateProfileResponse, VerifyEmailChangeRequest, VerifyEmailChangeResponse } from "./auth_pb.js";
+import { ChangePasswordRequest, ChangePasswordResponse, CheckPermissionRequest, CheckPermissionResponse, GetProfileRequest, GetProfileResponse, GetUserRequest, GetUserResponse, LoginRequest, LoginResponse, LogoutAllRequest, LogoutAllResponse, LogoutRequest, LogoutResponse, RefreshTokenRequest, RefreshTokenResponse, RegisterRequest, RegisterResponse, RequestEmailChangeRequest, RequestEmailChangeResponse, RequestPasswordResetRequest, RequestPasswordResetResponse, ResendOtpRequest, ResendOtpResponse, ResetPasswordRequest, ResetPasswordResponse, UpdateProfileRequest, UpdateProfileResponse, VerifyEmailChangeRequest, VerifyEmailChangeResponse, VerifyEmailRequest, VerifyEmailResponse } from "./auth_pb.js";
 import { MethodKind } from "@bufbuild/protobuf";
 
 /**
@@ -127,6 +127,24 @@ export const AuthService = {
       name: "CheckPermission",
       I: CheckPermissionRequest,
       O: CheckPermissionResponse,
+      kind: MethodKind.Unary,
+    },
+    /**
+     * @generated from rpc gridx.auth.v1.AuthService.VerifyEmail
+     */
+    verifyEmail: {
+      name: "VerifyEmail",
+      I: VerifyEmailRequest,
+      O: VerifyEmailResponse,
+      kind: MethodKind.Unary,
+    },
+    /**
+     * @generated from rpc gridx.auth.v1.AuthService.ResendOtp
+     */
+    resendOtp: {
+      name: "ResendOtp",
+      I: ResendOtpRequest,
+      O: ResendOtpResponse,
       kind: MethodKind.Unary,
     },
     /**
