@@ -2,15 +2,19 @@
 // @generated from file gridx/auth/v1/auth.proto (package gridx.auth.v1, syntax proto3)
 /* eslint-disable */
 
-import type { GenFile, GenMessage, GenService } from "@bufbuild/protobuf/codegenv2";
-import { fileDesc, messageDesc, serviceDesc } from "@bufbuild/protobuf/codegenv2";
+import type { GenEnum, GenFile, GenMessage, GenService } from "@bufbuild/protobuf/codegenv2";
+import { enumDesc, fileDesc, messageDesc, serviceDesc } from "@bufbuild/protobuf/codegenv2";
+import type { Timestamp } from "@bufbuild/protobuf/wkt";
+import { file_google_protobuf_timestamp } from "@bufbuild/protobuf/wkt";
+import type { Date } from "../../../google/type/date_pb.js";
+import { file_google_type_date } from "../../../google/type/date_pb.js";
 import type { Message } from "@bufbuild/protobuf";
 
 /**
  * Describes the file gridx/auth/v1/auth.proto.
  */
 export const file_gridx_auth_v1_auth: GenFile = /*@__PURE__*/
-  fileDesc("ChhncmlkeC9hdXRoL3YxL2F1dGgucHJvdG8SDWdyaWR4LmF1dGgudjEiMgoPUmVnaXN0ZXJSZXF1ZXN0Eg0KBWVtYWlsGAEgASgJEhAKCHBhc3N3b3JkGAIgASgJImQKEFJlZ2lzdGVyUmVzcG9uc2USDwoHdXNlcl9pZBgBIAEoCRINCgVlbWFpbBgCIAEoCRIOCgZzdGF0dXMYAyABKAkSEgoKY3JlYXRlZF9hdBgEIAEoCRIMCgRuYW1lGAUgASgJIi8KDExvZ2luUmVxdWVzdBINCgVlbWFpbBgBIAEoCRIQCghwYXNzd29yZBgCIAEoCSJwCg1Mb2dpblJlc3BvbnNlEg8KB3VzZXJfaWQYASABKAkSDQoFZW1haWwYAiABKAkSFAoMYWNjZXNzX3Rva2VuGAMgASgJEhUKDXJlZnJlc2hfdG9rZW4YBCABKAkSEgoKZXhwaXJlc19pbhgFIAEoAyIsChNSZWZyZXNoVG9rZW5SZXF1ZXN0EhUKDXJlZnJlc2hfdG9rZW4YASABKAkiVwoUUmVmcmVzaFRva2VuUmVzcG9uc2USFAoMYWNjZXNzX3Rva2VuGAEgASgJEhUKDXJlZnJlc2hfdG9rZW4YAiABKAkSEgoKZXhwaXJlc19pbhgDIAEoBSImCg1Mb2dvdXRSZXF1ZXN0EhUKDXJlZnJlc2hfdG9rZW4YASABKAkiIQoOTG9nb3V0UmVzcG9uc2USDwoHc3VjY2VzcxgBIAEoCCISChBMb2dvdXRBbGxSZXF1ZXN0IiQKEUxvZ291dEFsbFJlc3BvbnNlEg8KB3N1Y2Nlc3MYASABKAgiggEKC1VzZXJQcm9maWxlEg8KB3VzZXJfaWQYASABKAkSDQoFZW1haWwYAiABKAkSDgoGc3RhdHVzGAUgASgJEhIKCmNyZWF0ZWRfYXQYBiABKAkSDAoEbmFtZRgHIAEoCUoECAMQBEoECAQQBVIKZmlyc3RfbmFtZVIJbGFzdF9uYW1lIhMKEUdldFByb2ZpbGVSZXF1ZXN0IkEKEkdldFByb2ZpbGVSZXNwb25zZRIrCgdwcm9maWxlGAEgASgLMhouZ3JpZHguYXV0aC52MS5Vc2VyUHJvZmlsZSJHChRVcGRhdGVQcm9maWxlUmVxdWVzdBIMCgRuYW1lGAMgASgJSgQIARACSgQIAhADUgpmaXJzdF9uYW1lUglsYXN0X25hbWUiRAoVVXBkYXRlUHJvZmlsZVJlc3BvbnNlEisKB3Byb2ZpbGUYASABKAsyGi5ncmlkeC5hdXRoLnYxLlVzZXJQcm9maWxlIkcKFUNoYW5nZVBhc3N3b3JkUmVxdWVzdBIYChBjdXJyZW50X3Bhc3N3b3JkGAEgASgJEhQKDG5ld19wYXNzd29yZBgCIAEoCSIpChZDaGFuZ2VQYXNzd29yZFJlc3BvbnNlEg8KB3N1Y2Nlc3MYASABKAgiLAobUmVxdWVzdFBhc3N3b3JkUmVzZXRSZXF1ZXN0Eg0KBWVtYWlsGAEgASgJIi8KHFJlcXVlc3RQYXNzd29yZFJlc2V0UmVzcG9uc2USDwoHc3VjY2VzcxgBIAEoCCI7ChRSZXNldFBhc3N3b3JkUmVxdWVzdBINCgV0b2tlbhgBIAEoCRIUCgxuZXdfcGFzc3dvcmQYAiABKAkiKAoVUmVzZXRQYXNzd29yZFJlc3BvbnNlEg8KB3N1Y2Nlc3MYASABKAgiLgoZUmVxdWVzdEVtYWlsQ2hhbmdlUmVxdWVzdBIRCgluZXdfZW1haWwYASABKAkiLQoaUmVxdWVzdEVtYWlsQ2hhbmdlUmVzcG9uc2USDwoHc3VjY2VzcxgBIAEoCCIpChhWZXJpZnlFbWFpbENoYW5nZVJlcXVlc3QSDQoFdG9rZW4YASABKAkiSAoZVmVyaWZ5RW1haWxDaGFuZ2VSZXNwb25zZRIrCgdwcm9maWxlGAEgASgLMhouZ3JpZHguYXV0aC52MS5Vc2VyUHJvZmlsZSIwChJWZXJpZnlFbWFpbFJlcXVlc3QSDQoFZW1haWwYASABKAkSCwoDb3RwGAIgASgJIjcKE1ZlcmlmeUVtYWlsUmVzcG9uc2USDwoHc3VjY2VzcxgBIAEoCBIPCgdtZXNzYWdlGAIgASgJIiEKEFJlc2VuZE90cFJlcXVlc3QSDQoFZW1haWwYASABKAkiJAoRUmVzZW5kT3RwUmVzcG9uc2USDwoHc3VjY2VzcxgBIAEoCCIhCg5HZXRVc2VyUmVxdWVzdBIPCgd1c2VyX2lkGAEgASgJIl0KD0dldFVzZXJSZXNwb25zZRIPCgd1c2VyX2lkGAEgASgJEg0KBWVtYWlsGAIgASgJEg4KBnN0YXR1cxgDIAEoCRIMCgRyb2xlGAQgASgJEgwKBG5hbWUYBSABKAkiQgoWQ2hlY2tQZXJtaXNzaW9uUmVxdWVzdBIPCgd1c2VyX2lkGAEgASgJEhcKD3Blcm1pc3Npb25fbmFtZRgCIAEoCSIqChdDaGVja1Blcm1pc3Npb25SZXNwb25zZRIPCgdhbGxvd2VkGAEgASgIMo4LCgtBdXRoU2VydmljZRJLCghSZWdpc3RlchIeLmdyaWR4LmF1dGgudjEuUmVnaXN0ZXJSZXF1ZXN0Gh8uZ3JpZHguYXV0aC52MS5SZWdpc3RlclJlc3BvbnNlEkIKBUxvZ2luEhsuZ3JpZHguYXV0aC52MS5Mb2dpblJlcXVlc3QaHC5ncmlkeC5hdXRoLnYxLkxvZ2luUmVzcG9uc2USRQoGTG9nb3V0EhwuZ3JpZHguYXV0aC52MS5Mb2dvdXRSZXF1ZXN0Gh0uZ3JpZHguYXV0aC52MS5Mb2dvdXRSZXNwb25zZRJOCglMb2dvdXRBbGwSHy5ncmlkeC5hdXRoLnYxLkxvZ291dEFsbFJlcXVlc3QaIC5ncmlkeC5hdXRoLnYxLkxvZ291dEFsbFJlc3BvbnNlElEKCkdldFByb2ZpbGUSIC5ncmlkeC5hdXRoLnYxLkdldFByb2ZpbGVSZXF1ZXN0GiEuZ3JpZHguYXV0aC52MS5HZXRQcm9maWxlUmVzcG9uc2USWgoNVXBkYXRlUHJvZmlsZRIjLmdyaWR4LmF1dGgudjEuVXBkYXRlUHJvZmlsZVJlcXVlc3QaJC5ncmlkeC5hdXRoLnYxLlVwZGF0ZVByb2ZpbGVSZXNwb25zZRJdCg5DaGFuZ2VQYXNzd29yZBIkLmdyaWR4LmF1dGgudjEuQ2hhbmdlUGFzc3dvcmRSZXF1ZXN0GiUuZ3JpZHguYXV0aC52MS5DaGFuZ2VQYXNzd29yZFJlc3BvbnNlEm8KFFJlcXVlc3RQYXNzd29yZFJlc2V0EiouZ3JpZHguYXV0aC52MS5SZXF1ZXN0UGFzc3dvcmRSZXNldFJlcXVlc3QaKy5ncmlkeC5hdXRoLnYxLlJlcXVlc3RQYXNzd29yZFJlc2V0UmVzcG9uc2USWgoNUmVzZXRQYXNzd29yZBIjLmdyaWR4LmF1dGgudjEuUmVzZXRQYXNzd29yZFJlcXVlc3QaJC5ncmlkeC5hdXRoLnYxLlJlc2V0UGFzc3dvcmRSZXNwb25zZRJpChJSZXF1ZXN0RW1haWxDaGFuZ2USKC5ncmlkeC5hdXRoLnYxLlJlcXVlc3RFbWFpbENoYW5nZVJlcXVlc3QaKS5ncmlkeC5hdXRoLnYxLlJlcXVlc3RFbWFpbENoYW5nZVJlc3BvbnNlEmYKEVZlcmlmeUVtYWlsQ2hhbmdlEicuZ3JpZHguYXV0aC52MS5WZXJpZnlFbWFpbENoYW5nZVJlcXVlc3QaKC5ncmlkeC5hdXRoLnYxLlZlcmlmeUVtYWlsQ2hhbmdlUmVzcG9uc2USSAoHR2V0VXNlchIdLmdyaWR4LmF1dGgudjEuR2V0VXNlclJlcXVlc3QaHi5ncmlkeC5hdXRoLnYxLkdldFVzZXJSZXNwb25zZRJgCg9DaGVja1Blcm1pc3Npb24SJS5ncmlkeC5hdXRoLnYxLkNoZWNrUGVybWlzc2lvblJlcXVlc3QaJi5ncmlkeC5hdXRoLnYxLkNoZWNrUGVybWlzc2lvblJlc3BvbnNlElQKC1ZlcmlmeUVtYWlsEiEuZ3JpZHguYXV0aC52MS5WZXJpZnlFbWFpbFJlcXVlc3QaIi5ncmlkeC5hdXRoLnYxLlZlcmlmeUVtYWlsUmVzcG9uc2USTgoJUmVzZW5kT3RwEh8uZ3JpZHguYXV0aC52MS5SZXNlbmRPdHBSZXF1ZXN0GiAuZ3JpZHguYXV0aC52MS5SZXNlbmRPdHBSZXNwb25zZRJXCgxSZWZyZXNoVG9rZW4SIi5ncmlkeC5hdXRoLnYxLlJlZnJlc2hUb2tlblJlcXVlc3QaIy5ncmlkeC5hdXRoLnYxLlJlZnJlc2hUb2tlblJlc3BvbnNlQkhaRmdpdGh1Yi5jb20vcDJwLWVuZXJneS10cmFkaW5nLXBsYXRmb3JtL2dvLXNkay9nZW4vZ3JpZHgvYXV0aC92MTthdXRodjFiBnByb3RvMw");
+  fileDesc("ChhncmlkeC9hdXRoL3YxL2F1dGgucHJvdG8SDWdyaWR4LmF1dGgudjEiMgoPUmVnaXN0ZXJSZXF1ZXN0Eg0KBWVtYWlsGAEgASgJEhAKCHBhc3N3b3JkGAIgASgJImQKEFJlZ2lzdGVyUmVzcG9uc2USDwoHdXNlcl9pZBgBIAEoCRINCgVlbWFpbBgCIAEoCRIOCgZzdGF0dXMYAyABKAkSEgoKY3JlYXRlZF9hdBgEIAEoCRIMCgRuYW1lGAUgASgJIi8KDExvZ2luUmVxdWVzdBINCgVlbWFpbBgBIAEoCRIQCghwYXNzd29yZBgCIAEoCSJwCg1Mb2dpblJlc3BvbnNlEg8KB3VzZXJfaWQYASABKAkSDQoFZW1haWwYAiABKAkSFAoMYWNjZXNzX3Rva2VuGAMgASgJEhUKDXJlZnJlc2hfdG9rZW4YBCABKAkSEgoKZXhwaXJlc19pbhgFIAEoAyIsChNSZWZyZXNoVG9rZW5SZXF1ZXN0EhUKDXJlZnJlc2hfdG9rZW4YASABKAkiVwoUUmVmcmVzaFRva2VuUmVzcG9uc2USFAoMYWNjZXNzX3Rva2VuGAEgASgJEhUKDXJlZnJlc2hfdG9rZW4YAiABKAkSEgoKZXhwaXJlc19pbhgDIAEoBSImCg1Mb2dvdXRSZXF1ZXN0EhUKDXJlZnJlc2hfdG9rZW4YASABKAkiIQoOTG9nb3V0UmVzcG9uc2USDwoHc3VjY2VzcxgBIAEoCCISChBMb2dvdXRBbGxSZXF1ZXN0IiQKEUxvZ291dEFsbFJlc3BvbnNlEg8KB3N1Y2Nlc3MYASABKAgiggEKC1VzZXJQcm9maWxlEg8KB3VzZXJfaWQYASABKAkSDQoFZW1haWwYAiABKAkSDgoGc3RhdHVzGAUgASgJEhIKCmNyZWF0ZWRfYXQYBiABKAkSDAoEbmFtZRgHIAEoCUoECAMQBEoECAQQBVIKZmlyc3RfbmFtZVIJbGFzdF9uYW1lIhMKEUdldFByb2ZpbGVSZXF1ZXN0IkEKEkdldFByb2ZpbGVSZXNwb25zZRIrCgdwcm9maWxlGAEgASgLMhouZ3JpZHguYXV0aC52MS5Vc2VyUHJvZmlsZSJHChRVcGRhdGVQcm9maWxlUmVxdWVzdBIMCgRuYW1lGAMgASgJSgQIARACSgQIAhADUgpmaXJzdF9uYW1lUglsYXN0X25hbWUiRAoVVXBkYXRlUHJvZmlsZVJlc3BvbnNlEisKB3Byb2ZpbGUYASABKAsyGi5ncmlkeC5hdXRoLnYxLlVzZXJQcm9maWxlIkcKFUNoYW5nZVBhc3N3b3JkUmVxdWVzdBIYChBjdXJyZW50X3Bhc3N3b3JkGAEgASgJEhQKDG5ld19wYXNzd29yZBgCIAEoCSIpChZDaGFuZ2VQYXNzd29yZFJlc3BvbnNlEg8KB3N1Y2Nlc3MYASABKAgiLAobUmVxdWVzdFBhc3N3b3JkUmVzZXRSZXF1ZXN0Eg0KBWVtYWlsGAEgASgJIi8KHFJlcXVlc3RQYXNzd29yZFJlc2V0UmVzcG9uc2USDwoHc3VjY2VzcxgBIAEoCCI7ChRSZXNldFBhc3N3b3JkUmVxdWVzdBINCgV0b2tlbhgBIAEoCRIUCgxuZXdfcGFzc3dvcmQYAiABKAkiKAoVUmVzZXRQYXNzd29yZFJlc3BvbnNlEg8KB3N1Y2Nlc3MYASABKAgiLgoZUmVxdWVzdEVtYWlsQ2hhbmdlUmVxdWVzdBIRCgluZXdfZW1haWwYASABKAkiLQoaUmVxdWVzdEVtYWlsQ2hhbmdlUmVzcG9uc2USDwoHc3VjY2VzcxgBIAEoCCIpChhWZXJpZnlFbWFpbENoYW5nZVJlcXVlc3QSDQoFdG9rZW4YASABKAkiSAoZVmVyaWZ5RW1haWxDaGFuZ2VSZXNwb25zZRIrCgdwcm9maWxlGAEgASgLMhouZ3JpZHguYXV0aC52MS5Vc2VyUHJvZmlsZSIwChJWZXJpZnlFbWFpbFJlcXVlc3QSDQoFZW1haWwYASABKAkSCwoDb3RwGAIgASgJIjcKE1ZlcmlmeUVtYWlsUmVzcG9uc2USDwoHc3VjY2VzcxgBIAEoCBIPCgdtZXNzYWdlGAIgASgJIiEKEFJlc2VuZE90cFJlcXVlc3QSDQoFZW1haWwYASABKAkiJAoRUmVzZW5kT3RwUmVzcG9uc2USDwoHc3VjY2VzcxgBIAEoCCIhCg5HZXRVc2VyUmVxdWVzdBIPCgd1c2VyX2lkGAEgASgJIl0KD0dldFVzZXJSZXNwb25zZRIPCgd1c2VyX2lkGAEgASgJEg0KBWVtYWlsGAIgASgJEg4KBnN0YXR1cxgDIAEoCRIMCgRyb2xlGAQgASgJEgwKBG5hbWUYBSABKAkiQgoWQ2hlY2tQZXJtaXNzaW9uUmVxdWVzdBIPCgd1c2VyX2lkGAEgASgJEhcKD3Blcm1pc3Npb25fbmFtZRgCIAEoCSIqChdDaGVja1Blcm1pc3Npb25SZXNwb25zZRIPCgdhbGxvd2VkGAEgASgIIngKEFN1Ym1pdEt5Y1JlcXVlc3QSEQoJZnVsbF9uYW1lGAEgASgJEigKDWRhdGVfb2ZfYmlydGgYAiABKAsyES5nb29nbGUudHlwZS5EYXRlEhAKCGR1YmFpX2lkGAMgASgJEhUKDWRvY3VtZW50X3BhdGgYBCABKAkiRQoRU3VibWl0S3ljUmVzcG9uc2USMAoKc3VibWlzc2lvbhgBIAEoCzIcLmdyaWR4LmF1dGgudjEuS3ljU3VibWlzc2lvbiLlAgoNS3ljU3VibWlzc2lvbhIKCgJpZBgBIAEoCRIPCgd1c2VyX2lkGAIgASgJEhEKCWZ1bGxfbmFtZRgDIAEoCRIoCg1kYXRlX29mX2JpcnRoGAQgASgLMhEuZ29vZ2xlLnR5cGUuRGF0ZRIQCghkdWJhaV9pZBgFIAEoCRIVCg1kb2N1bWVudF9wYXRoGAYgASgJEiYKBXN0YXRlGAcgASgOMhcuZ3JpZHguYXV0aC52MS5LeWNTdGF0ZRIYChByZWplY3Rpb25fcmVhc29uGAggASgJEi8KC3ZlcmlmaWVkX2F0GAkgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBIuCgpjcmVhdGVkX2F0GAogASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBIuCgp1cGRhdGVkX2F0GAsgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcCpsCghLeWNTdGF0ZRIZChVLWUNfU1RBVEVfVU5TUEVDSUZJRUQQABIVChFLWUNfU1RBVEVfUEVORElORxABEhYKEktZQ19TVEFURV9WRVJJRklFRBACEhYKEktZQ19TVEFURV9SRUpFQ1RFRBADMt4LCgtBdXRoU2VydmljZRJLCghSZWdpc3RlchIeLmdyaWR4LmF1dGgudjEuUmVnaXN0ZXJSZXF1ZXN0Gh8uZ3JpZHguYXV0aC52MS5SZWdpc3RlclJlc3BvbnNlEkIKBUxvZ2luEhsuZ3JpZHguYXV0aC52MS5Mb2dpblJlcXVlc3QaHC5ncmlkeC5hdXRoLnYxLkxvZ2luUmVzcG9uc2USRQoGTG9nb3V0EhwuZ3JpZHguYXV0aC52MS5Mb2dvdXRSZXF1ZXN0Gh0uZ3JpZHguYXV0aC52MS5Mb2dvdXRSZXNwb25zZRJOCglMb2dvdXRBbGwSHy5ncmlkeC5hdXRoLnYxLkxvZ291dEFsbFJlcXVlc3QaIC5ncmlkeC5hdXRoLnYxLkxvZ291dEFsbFJlc3BvbnNlElEKCkdldFByb2ZpbGUSIC5ncmlkeC5hdXRoLnYxLkdldFByb2ZpbGVSZXF1ZXN0GiEuZ3JpZHguYXV0aC52MS5HZXRQcm9maWxlUmVzcG9uc2USWgoNVXBkYXRlUHJvZmlsZRIjLmdyaWR4LmF1dGgudjEuVXBkYXRlUHJvZmlsZVJlcXVlc3QaJC5ncmlkeC5hdXRoLnYxLlVwZGF0ZVByb2ZpbGVSZXNwb25zZRJdCg5DaGFuZ2VQYXNzd29yZBIkLmdyaWR4LmF1dGgudjEuQ2hhbmdlUGFzc3dvcmRSZXF1ZXN0GiUuZ3JpZHguYXV0aC52MS5DaGFuZ2VQYXNzd29yZFJlc3BvbnNlEm8KFFJlcXVlc3RQYXNzd29yZFJlc2V0EiouZ3JpZHguYXV0aC52MS5SZXF1ZXN0UGFzc3dvcmRSZXNldFJlcXVlc3QaKy5ncmlkeC5hdXRoLnYxLlJlcXVlc3RQYXNzd29yZFJlc2V0UmVzcG9uc2USWgoNUmVzZXRQYXNzd29yZBIjLmdyaWR4LmF1dGgudjEuUmVzZXRQYXNzd29yZFJlcXVlc3QaJC5ncmlkeC5hdXRoLnYxLlJlc2V0UGFzc3dvcmRSZXNwb25zZRJpChJSZXF1ZXN0RW1haWxDaGFuZ2USKC5ncmlkeC5hdXRoLnYxLlJlcXVlc3RFbWFpbENoYW5nZVJlcXVlc3QaKS5ncmlkeC5hdXRoLnYxLlJlcXVlc3RFbWFpbENoYW5nZVJlc3BvbnNlEmYKEVZlcmlmeUVtYWlsQ2hhbmdlEicuZ3JpZHguYXV0aC52MS5WZXJpZnlFbWFpbENoYW5nZVJlcXVlc3QaKC5ncmlkeC5hdXRoLnYxLlZlcmlmeUVtYWlsQ2hhbmdlUmVzcG9uc2USSAoHR2V0VXNlchIdLmdyaWR4LmF1dGgudjEuR2V0VXNlclJlcXVlc3QaHi5ncmlkeC5hdXRoLnYxLkdldFVzZXJSZXNwb25zZRJgCg9DaGVja1Blcm1pc3Npb24SJS5ncmlkeC5hdXRoLnYxLkNoZWNrUGVybWlzc2lvblJlcXVlc3QaJi5ncmlkeC5hdXRoLnYxLkNoZWNrUGVybWlzc2lvblJlc3BvbnNlElQKC1ZlcmlmeUVtYWlsEiEuZ3JpZHguYXV0aC52MS5WZXJpZnlFbWFpbFJlcXVlc3QaIi5ncmlkeC5hdXRoLnYxLlZlcmlmeUVtYWlsUmVzcG9uc2USTgoJUmVzZW5kT3RwEh8uZ3JpZHguYXV0aC52MS5SZXNlbmRPdHBSZXF1ZXN0GiAuZ3JpZHguYXV0aC52MS5SZXNlbmRPdHBSZXNwb25zZRJOCglTdWJtaXRLeWMSHy5ncmlkeC5hdXRoLnYxLlN1Ym1pdEt5Y1JlcXVlc3QaIC5ncmlkeC5hdXRoLnYxLlN1Ym1pdEt5Y1Jlc3BvbnNlElcKDFJlZnJlc2hUb2tlbhIiLmdyaWR4LmF1dGgudjEuUmVmcmVzaFRva2VuUmVxdWVzdBojLmdyaWR4LmF1dGgudjEuUmVmcmVzaFRva2VuUmVzcG9uc2VCSFpGZ2l0aHViLmNvbS9wMnAtZW5lcmd5LXRyYWRpbmctcGxhdGZvcm0vZ28tc2RrL2dlbi9ncmlkeC9hdXRoL3YxO2F1dGh2MWIGcHJvdG8z", [file_google_protobuf_timestamp, file_google_type_date]);
 
 /**
  * @generated from message gridx.auth.v1.RegisterRequest
@@ -691,6 +695,153 @@ export const CheckPermissionResponseSchema: GenMessage<CheckPermissionResponse> 
   messageDesc(file_gridx_auth_v1_auth, 32);
 
 /**
+ * @generated from message gridx.auth.v1.SubmitKycRequest
+ */
+export type SubmitKycRequest = Message<"gridx.auth.v1.SubmitKycRequest"> & {
+  /**
+   * @generated from field: string full_name = 1;
+   */
+  fullName: string;
+
+  /**
+   * @generated from field: google.type.Date date_of_birth = 2;
+   */
+  dateOfBirth?: Date | undefined;
+
+  /**
+   * @generated from field: string dubai_id = 3;
+   */
+  dubaiId: string;
+
+  /**
+   * @generated from field: string document_path = 4;
+   */
+  documentPath: string;
+};
+
+/**
+ * Describes the message gridx.auth.v1.SubmitKycRequest.
+ * Use `create(SubmitKycRequestSchema)` to create a new message.
+ */
+export const SubmitKycRequestSchema: GenMessage<SubmitKycRequest> = /*@__PURE__*/
+  messageDesc(file_gridx_auth_v1_auth, 33);
+
+/**
+ * @generated from message gridx.auth.v1.SubmitKycResponse
+ */
+export type SubmitKycResponse = Message<"gridx.auth.v1.SubmitKycResponse"> & {
+  /**
+   * @generated from field: gridx.auth.v1.KycSubmission submission = 1;
+   */
+  submission?: KycSubmission | undefined;
+};
+
+/**
+ * Describes the message gridx.auth.v1.SubmitKycResponse.
+ * Use `create(SubmitKycResponseSchema)` to create a new message.
+ */
+export const SubmitKycResponseSchema: GenMessage<SubmitKycResponse> = /*@__PURE__*/
+  messageDesc(file_gridx_auth_v1_auth, 34);
+
+/**
+ * @generated from message gridx.auth.v1.KycSubmission
+ */
+export type KycSubmission = Message<"gridx.auth.v1.KycSubmission"> & {
+  /**
+   * @generated from field: string id = 1;
+   */
+  id: string;
+
+  /**
+   * @generated from field: string user_id = 2;
+   */
+  userId: string;
+
+  /**
+   * @generated from field: string full_name = 3;
+   */
+  fullName: string;
+
+  /**
+   * @generated from field: google.type.Date date_of_birth = 4;
+   */
+  dateOfBirth?: Date | undefined;
+
+  /**
+   * @generated from field: string dubai_id = 5;
+   */
+  dubaiId: string;
+
+  /**
+   * @generated from field: string document_path = 6;
+   */
+  documentPath: string;
+
+  /**
+   * @generated from field: gridx.auth.v1.KycState state = 7;
+   */
+  state: KycState;
+
+  /**
+   * @generated from field: string rejection_reason = 8;
+   */
+  rejectionReason: string;
+
+  /**
+   * @generated from field: google.protobuf.Timestamp verified_at = 9;
+   */
+  verifiedAt?: Timestamp | undefined;
+
+  /**
+   * @generated from field: google.protobuf.Timestamp created_at = 10;
+   */
+  createdAt?: Timestamp | undefined;
+
+  /**
+   * @generated from field: google.protobuf.Timestamp updated_at = 11;
+   */
+  updatedAt?: Timestamp | undefined;
+};
+
+/**
+ * Describes the message gridx.auth.v1.KycSubmission.
+ * Use `create(KycSubmissionSchema)` to create a new message.
+ */
+export const KycSubmissionSchema: GenMessage<KycSubmission> = /*@__PURE__*/
+  messageDesc(file_gridx_auth_v1_auth, 35);
+
+/**
+ * @generated from enum gridx.auth.v1.KycState
+ */
+export enum KycState {
+  /**
+   * @generated from enum value: KYC_STATE_UNSPECIFIED = 0;
+   */
+  UNSPECIFIED = 0,
+
+  /**
+   * @generated from enum value: KYC_STATE_PENDING = 1;
+   */
+  PENDING = 1,
+
+  /**
+   * @generated from enum value: KYC_STATE_VERIFIED = 2;
+   */
+  VERIFIED = 2,
+
+  /**
+   * @generated from enum value: KYC_STATE_REJECTED = 3;
+   */
+  REJECTED = 3,
+}
+
+/**
+ * Describes the enum gridx.auth.v1.KycState.
+ */
+export const KycStateSchema: GenEnum<KycState> = /*@__PURE__*/
+  enumDesc(file_gridx_auth_v1_auth, 0);
+
+/**
  * @generated from service gridx.auth.v1.AuthService
  */
 export const AuthService: GenService<{
@@ -813,6 +964,14 @@ export const AuthService: GenService<{
     methodKind: "unary";
     input: typeof ResendOtpRequestSchema;
     output: typeof ResendOtpResponseSchema;
+  },
+  /**
+   * @generated from rpc gridx.auth.v1.AuthService.SubmitKyc
+   */
+  submitKyc: {
+    methodKind: "unary";
+    input: typeof SubmitKycRequestSchema;
+    output: typeof SubmitKycResponseSchema;
   },
   /**
    * @generated from rpc gridx.auth.v1.AuthService.RefreshToken
