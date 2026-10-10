@@ -1,6 +1,6 @@
 {
     "name": "@p2p-energy-trading-platform/typescript-sdk",
-    "version": "1.10.2",
+    "version": "1.11.0",
     "type": "module",
     "private": false,
     "sideEffects": false,
