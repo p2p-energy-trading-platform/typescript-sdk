@@ -3,7 +3,7 @@
 /* eslint-disable */
 // @ts-nocheck
 
-import { ChangePasswordRequest, ChangePasswordResponse, CheckPermissionRequest, CheckPermissionResponse, GetProfileRequest, GetProfileResponse, GetUserRequest, GetUserResponse, LoginRequest, LoginResponse, LoginWithGoogleRequest, LoginWithGoogleResponse, LogoutAllRequest, LogoutAllResponse, LogoutRequest, LogoutResponse, RefreshTokenRequest, RefreshTokenResponse, RegisterRequest, RegisterResponse, RequestEmailChangeRequest, RequestEmailChangeResponse, RequestPasswordResetRequest, RequestPasswordResetResponse, ResendOtpRequest, ResendOtpResponse, ResetPasswordRequest, ResetPasswordResponse, SubmitKycRequest, SubmitKycResponse, UpdateProfileRequest, UpdateProfileResponse, VerifyEmailChangeRequest, VerifyEmailChangeResponse, VerifyEmailRequest, VerifyEmailResponse } from "./auth_pb.js";
+import { ChangePasswordRequest, ChangePasswordResponse, CheckPermissionRequest, CheckPermissionResponse, CreateKycUploadUrlRequest, CreateKycUploadUrlResponse, GetProfileRequest, GetProfileResponse, GetUserRequest, GetUserResponse, LoginRequest, LoginResponse, LoginWithGoogleRequest, LoginWithGoogleResponse, LogoutAllRequest, LogoutAllResponse, LogoutRequest, LogoutResponse, RefreshTokenRequest, RefreshTokenResponse, RegisterRequest, RegisterResponse, RequestEmailChangeRequest, RequestEmailChangeResponse, RequestPasswordResetRequest, RequestPasswordResetResponse, ResendOtpRequest, ResendOtpResponse, ResetPasswordRequest, ResetPasswordResponse, SubmitKycRequest, SubmitKycResponse, UpdateProfileRequest, UpdateProfileResponse, VerifyEmailChangeRequest, VerifyEmailChangeResponse, VerifyEmailRequest, VerifyEmailResponse } from "./auth_pb.js";
 import { MethodKind } from "@bufbuild/protobuf";
 
 /**
@@ -46,6 +46,15 @@ export const AuthService = {
       name: "LogoutAll",
       I: LogoutAllRequest,
       O: LogoutAllResponse,
+      kind: MethodKind.Unary,
+    },
+    /**
+     * @generated from rpc gridx.auth.v1.AuthService.CreateKycUploadUrl
+     */
+    createKycUploadUrl: {
+      name: "CreateKycUploadUrl",
+      I: CreateKycUploadUrlRequest,
+      O: CreateKycUploadUrlResponse,
       kind: MethodKind.Unary,
     },
     /**
