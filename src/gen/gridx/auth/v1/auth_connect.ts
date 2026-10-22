@@ -3,7 +3,7 @@
 /* eslint-disable */
 // @ts-nocheck
 
-import { ChangePasswordRequest, ChangePasswordResponse, CheckPermissionRequest, CheckPermissionResponse, CreateKycUploadUrlRequest, CreateKycUploadUrlResponse, GetProfileRequest, GetProfileResponse, GetUserRequest, GetUserResponse, LoginRequest, LoginResponse, LoginWithGoogleRequest, LoginWithGoogleResponse, LogoutAllRequest, LogoutAllResponse, LogoutRequest, LogoutResponse, RefreshTokenRequest, RefreshTokenResponse, RegisterRequest, RegisterResponse, RequestEmailChangeRequest, RequestEmailChangeResponse, RequestPasswordResetRequest, RequestPasswordResetResponse, ResendOtpRequest, ResendOtpResponse, ResetPasswordRequest, ResetPasswordResponse, SubmitKycRequest, SubmitKycResponse, UpdateProfileRequest, UpdateProfileResponse, VerifyEmailChangeRequest, VerifyEmailChangeResponse, VerifyEmailRequest, VerifyEmailResponse } from "./auth_pb.js";
+import { ChangePasswordRequest, ChangePasswordResponse, CheckPermissionRequest, CheckPermissionResponse, CreateKycUploadUrlRequest, CreateKycUploadUrlResponse, ExtractKycNicOcrRequest, ExtractKycNicOcrResponse, GetProfileRequest, GetProfileResponse, GetUserRequest, GetUserResponse, LoginRequest, LoginResponse, LoginWithGoogleRequest, LoginWithGoogleResponse, LogoutAllRequest, LogoutAllResponse, LogoutRequest, LogoutResponse, RefreshTokenRequest, RefreshTokenResponse, RegisterRequest, RegisterResponse, RequestEmailChangeRequest, RequestEmailChangeResponse, RequestPasswordResetRequest, RequestPasswordResetResponse, ResendOtpRequest, ResendOtpResponse, ResetPasswordRequest, ResetPasswordResponse, SubmitKycRequest, SubmitKycResponse, UpdateProfileRequest, UpdateProfileResponse, VerifyEmailChangeRequest, VerifyEmailChangeResponse, VerifyEmailRequest, VerifyEmailResponse } from "./auth_pb.js";
 import { MethodKind } from "@bufbuild/protobuf";
 
 /**
@@ -163,6 +163,15 @@ export const AuthService = {
       name: "SubmitKyc",
       I: SubmitKycRequest,
       O: SubmitKycResponse,
+      kind: MethodKind.Unary,
+    },
+    /**
+     * @generated from rpc gridx.auth.v1.AuthService.ExtractKycNicOcr
+     */
+    extractKycNicOcr: {
+      name: "ExtractKycNicOcr",
+      I: ExtractKycNicOcrRequest,
+      O: ExtractKycNicOcrResponse,
       kind: MethodKind.Unary,
     },
     /**
