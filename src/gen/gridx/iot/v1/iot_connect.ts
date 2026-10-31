@@ -3,7 +3,7 @@
 /* eslint-disable */
 // @ts-nocheck
 
-import { GetEnergySeriesRequest, GetEnergySeriesResponse, GetEnergySummaryRequest, GetEnergySummaryResponse, GetHouseRequest, GetHouseResponse, GetLatestReadingRequest, GetLatestReadingResponse, ListHousesRequest, ListHousesResponse } from "./iot_pb.js";
+import { GetEnergySeriesRequest, GetEnergySeriesResponse, GetEnergySummaryRequest, GetEnergySummaryResponse, GetHouseRequest, GetHouseResponse, GetLatestReadingRequest, GetLatestReadingResponse, GetRegistrationByUserRequest, GetRegistrationByUserResponse, GetRegistrationStatusRequest, GetRegistrationStatusResponse, InitiateMeterClaimRequest, InitiateMeterClaimResponse, ListHousesRequest, ListHousesResponse, ReverifyRegistrationRequest, ReverifyRegistrationResponse, ValidateDeviceAssociationRequest, ValidateDeviceAssociationResponse } from "./iot_pb.js";
 import { MethodKind } from "@bufbuild/protobuf";
 
 /**
@@ -60,6 +60,60 @@ export const IotService = {
       name: "GetEnergySummary",
       I: GetEnergySummaryRequest,
       O: GetEnergySummaryResponse,
+      kind: MethodKind.Unary,
+    },
+  }
+} as const;
+
+/**
+ * @generated from service gridx.iot.v1.DeviceRegistrationService
+ */
+export const DeviceRegistrationService = {
+  typeName: "gridx.iot.v1.DeviceRegistrationService",
+  methods: {
+    /**
+     * @generated from rpc gridx.iot.v1.DeviceRegistrationService.InitiateMeterClaim
+     */
+    initiateMeterClaim: {
+      name: "InitiateMeterClaim",
+      I: InitiateMeterClaimRequest,
+      O: InitiateMeterClaimResponse,
+      kind: MethodKind.Unary,
+    },
+    /**
+     * @generated from rpc gridx.iot.v1.DeviceRegistrationService.GetRegistrationStatus
+     */
+    getRegistrationStatus: {
+      name: "GetRegistrationStatus",
+      I: GetRegistrationStatusRequest,
+      O: GetRegistrationStatusResponse,
+      kind: MethodKind.Unary,
+    },
+    /**
+     * @generated from rpc gridx.iot.v1.DeviceRegistrationService.ValidateDeviceAssociation
+     */
+    validateDeviceAssociation: {
+      name: "ValidateDeviceAssociation",
+      I: ValidateDeviceAssociationRequest,
+      O: ValidateDeviceAssociationResponse,
+      kind: MethodKind.Unary,
+    },
+    /**
+     * @generated from rpc gridx.iot.v1.DeviceRegistrationService.ReverifyRegistration
+     */
+    reverifyRegistration: {
+      name: "ReverifyRegistration",
+      I: ReverifyRegistrationRequest,
+      O: ReverifyRegistrationResponse,
+      kind: MethodKind.Unary,
+    },
+    /**
+     * @generated from rpc gridx.iot.v1.DeviceRegistrationService.GetRegistrationByUser
+     */
+    getRegistrationByUser: {
+      name: "GetRegistrationByUser",
+      I: GetRegistrationByUserRequest,
+      O: GetRegistrationByUserResponse,
       kind: MethodKind.Unary,
     },
   }
