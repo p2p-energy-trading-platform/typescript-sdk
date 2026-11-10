@@ -12,7 +12,7 @@ import type { Message } from "@bufbuild/protobuf";
  * Describes the file gridx/billing/v1/order_billing.proto.
  */
 export const file_gridx_billing_v1_order_billing: GenFile = /*@__PURE__*/
-  fileDesc("CiRncmlkeC9iaWxsaW5nL3YxL29yZGVyX2JpbGxpbmcucHJvdG8SEGdyaWR4LmJpbGxpbmcudjEixgEKFVJlc2VydmVDcmVkaXRzUmVxdWVzdBIPCgd1c2VyX2lkGAEgASgJEhAKCG9yZGVyX2lkGAIgASgJEi8KCm9yZGVyX3R5cGUYAyABKA4yGy5ncmlkeC5iaWxsaW5nLnYxLk9yZGVyVHlwZRIOCgZxdHlfd2gYBCABKAMSGQoRbWF4X3ByaWNlX3Blcl9rd2gYBSABKAMSLgoKZXhwaXJlc19hdBgGIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXAiWwoWUmVzZXJ2ZUNyZWRpdHNSZXNwb25zZRIPCgdob2xkX2lkGAEgASgJEhcKD3Jlc2VydmVkX2Ftb3VudBgCIAEoAxIXCg9hdmFpbGFibGVfYWZ0ZXIYAyABKAMiXgoZUmVsZWFzZVJlc2VydmF0aW9uUmVxdWVzdBIQCghvcmRlcl9pZBgBIAEoCRIvCgZyZWFzb24YAiABKA4yHy5ncmlkeC5iaWxsaW5nLnYxLlJlbGVhc2VSZWFzb24iNQoaUmVsZWFzZVJlc2VydmF0aW9uUmVzcG9uc2USFwoPcmVsZWFzZWRfYW1vdW50GAEgASgDKlQKCU9yZGVyVHlwZRIaChZPUkRFUl9UWVBFX1VOU1BFQ0lGSUVEEAASFAoQT1JERVJfVFlQRV9MSU1JVBABEhUKEU9SREVSX1RZUEVfTUFSS0VUEAIqoQEKDVJlbGVhc2VSZWFzb24SHgoaUkVMRUFTRV9SRUFTT05fVU5TUEVDSUZJRUQQABIcChhSRUxFQVNFX1JFQVNPTl9DQU5DRUxMRUQQARIaChZSRUxFQVNFX1JFQVNPTl9FWFBJUkVEEAISGQoVUkVMRUFTRV9SRUFTT05fRklMTEVEEAMSGwoXUkVMRUFTRV9SRUFTT05fUkVKRUNURUQQBDLrAQoTT3JkZXJCaWxsaW5nU2VydmljZRJjCg5SZXNlcnZlQ3JlZGl0cxInLmdyaWR4LmJpbGxpbmcudjEuUmVzZXJ2ZUNyZWRpdHNSZXF1ZXN0GiguZ3JpZHguYmlsbGluZy52MS5SZXNlcnZlQ3JlZGl0c1Jlc3BvbnNlEm8KElJlbGVhc2VSZXNlcnZhdGlvbhIrLmdyaWR4LmJpbGxpbmcudjEuUmVsZWFzZVJlc2VydmF0aW9uUmVxdWVzdBosLmdyaWR4LmJpbGxpbmcudjEuUmVsZWFzZVJlc2VydmF0aW9uUmVzcG9uc2VCTlpMZ2l0aHViLmNvbS9wMnAtZW5lcmd5LXRyYWRpbmctcGxhdGZvcm0vZ28tc2RrL2dlbi9ncmlkeC9iaWxsaW5nL3YxO2JpbGxpbmd2MWIGcHJvdG8z", [file_google_protobuf_timestamp]);
+  fileDesc("CiRncmlkeC9iaWxsaW5nL3YxL29yZGVyX2JpbGxpbmcucHJvdG8SEGdyaWR4LmJpbGxpbmcudjEixgEKFVJlc2VydmVDcmVkaXRzUmVxdWVzdBIPCgd1c2VyX2lkGAEgASgJEhAKCG9yZGVyX2lkGAIgASgJEi8KCm9yZGVyX3R5cGUYAyABKA4yGy5ncmlkeC5iaWxsaW5nLnYxLk9yZGVyVHlwZRIOCgZxdHlfd2gYBCABKAMSGQoRbWF4X3ByaWNlX3Blcl9rd2gYBSABKAMSLgoKZXhwaXJlc19hdBgGIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXAiWwoWUmVzZXJ2ZUNyZWRpdHNSZXNwb25zZRIPCgdob2xkX2lkGAEgASgJEhcKD3Jlc2VydmVkX2Ftb3VudBgCIAEoAxIXCg9hdmFpbGFibGVfYWZ0ZXIYAyABKAMiXgoZUmVsZWFzZVJlc2VydmF0aW9uUmVxdWVzdBIQCghvcmRlcl9pZBgBIAEoCRIvCgZyZWFzb24YAiABKA4yHy5ncmlkeC5iaWxsaW5nLnYxLlJlbGVhc2VSZWFzb24iNQoaUmVsZWFzZVJlc2VydmF0aW9uUmVzcG9uc2USFwoPcmVsZWFzZWRfYW1vdW50GAEgASgDIvMBChJTZXR0bGVUcmFkZVJlcXVlc3QSEAoIdHJhZGVfaWQYASABKAkSFAoMYnV5X29yZGVyX2lkGAIgASgJEhUKDXNlbGxfb3JkZXJfaWQYAyABKAkSFQoNYnV5ZXJfdXNlcl9pZBgEIAEoCRIWCg5zZWxsZXJfdXNlcl9pZBgFIAEoCRIOCgZxdHlfd2gYBiABKAMSFQoNcHJpY2VfcGVyX2t3aBgHIAEoAxIXCg9idXlfb3JkZXJfZmluYWwYCCABKAgSLwoLZXhlY3V0ZWRfYXQYCSABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wIqMBChNTZXR0bGVUcmFkZVJlc3BvbnNlEhUKDXNldHRsZW1lbnRfaWQYASABKAkSEwoLdHJhZGVfdmFsdWUYAiABKAMSEQoJYnV5ZXJfZmVlGAMgASgDEhIKCnNlbGxlcl9mZWUYBCABKAMSIAoYYnV5ZXJfcmVsZWFzZWRfcmVtYWluZGVyGAUgASgDEhcKD2FscmVhZHlfc2V0dGxlZBgGIAEoCCpUCglPcmRlclR5cGUSGgoWT1JERVJfVFlQRV9VTlNQRUNJRklFRBAAEhQKEE9SREVSX1RZUEVfTElNSVQQARIVChFPUkRFUl9UWVBFX01BUktFVBACKqEBCg1SZWxlYXNlUmVhc29uEh4KGlJFTEVBU0VfUkVBU09OX1VOU1BFQ0lGSUVEEAASHAoYUkVMRUFTRV9SRUFTT05fQ0FOQ0VMTEVEEAESGgoWUkVMRUFTRV9SRUFTT05fRVhQSVJFRBACEhkKFVJFTEVBU0VfUkVBU09OX0ZJTExFRBADEhsKF1JFTEVBU0VfUkVBU09OX1JFSkVDVEVEEAQyxwIKE09yZGVyQmlsbGluZ1NlcnZpY2USYwoOUmVzZXJ2ZUNyZWRpdHMSJy5ncmlkeC5iaWxsaW5nLnYxLlJlc2VydmVDcmVkaXRzUmVxdWVzdBooLmdyaWR4LmJpbGxpbmcudjEuUmVzZXJ2ZUNyZWRpdHNSZXNwb25zZRJvChJSZWxlYXNlUmVzZXJ2YXRpb24SKy5ncmlkeC5iaWxsaW5nLnYxLlJlbGVhc2VSZXNlcnZhdGlvblJlcXVlc3QaLC5ncmlkeC5iaWxsaW5nLnYxLlJlbGVhc2VSZXNlcnZhdGlvblJlc3BvbnNlEloKC1NldHRsZVRyYWRlEiQuZ3JpZHguYmlsbGluZy52MS5TZXR0bGVUcmFkZVJlcXVlc3QaJS5ncmlkeC5iaWxsaW5nLnYxLlNldHRsZVRyYWRlUmVzcG9uc2VCTlpMZ2l0aHViLmNvbS9wMnAtZW5lcmd5LXRyYWRpbmctcGxhdGZvcm0vZ28tc2RrL2dlbi9ncmlkeC9iaWxsaW5nL3YxO2JpbGxpbmd2MWIGcHJvdG8z", [file_google_protobuf_timestamp]);
 
 /**
  * All amounts are minor units: 1 credit = 100 units.
@@ -136,6 +136,114 @@ export const ReleaseReservationResponseSchema: GenMessage<ReleaseReservationResp
   messageDesc(file_gridx_billing_v1_order_billing, 3);
 
 /**
+ * @generated from message gridx.billing.v1.SettleTradeRequest
+ */
+export type SettleTradeRequest = Message<"gridx.billing.v1.SettleTradeRequest"> & {
+  /**
+   * @generated from field: string trade_id = 1;
+   */
+  tradeId: string;
+
+  /**
+   * @generated from field: string buy_order_id = 2;
+   */
+  buyOrderId: string;
+
+  /**
+   * @generated from field: string sell_order_id = 3;
+   */
+  sellOrderId: string;
+
+  /**
+   * @generated from field: string buyer_user_id = 4;
+   */
+  buyerUserId: string;
+
+  /**
+   * @generated from field: string seller_user_id = 5;
+   */
+  sellerUserId: string;
+
+  /**
+   * @generated from field: int64 qty_wh = 6;
+   */
+  qtyWh: bigint;
+
+  /**
+   * Execution price. Must not exceed the buy order's reserved maximum price.
+   *
+   * @generated from field: int64 price_per_kwh = 7;
+   */
+  pricePerKwh: bigint;
+
+  /**
+   * True on the buy order's last fill: whatever is left of its reservation is
+   * returned to the buyer in the same transaction.
+   *
+   * @generated from field: bool buy_order_final = 8;
+   */
+  buyOrderFinal: boolean;
+
+  /**
+   * Picks the seller's fee rate: the one in effect at this time.
+   *
+   * @generated from field: google.protobuf.Timestamp executed_at = 9;
+   */
+  executedAt?: Timestamp | undefined;
+};
+
+/**
+ * Describes the message gridx.billing.v1.SettleTradeRequest.
+ * Use `create(SettleTradeRequestSchema)` to create a new message.
+ */
+export const SettleTradeRequestSchema: GenMessage<SettleTradeRequest> = /*@__PURE__*/
+  messageDesc(file_gridx_billing_v1_order_billing, 4);
+
+/**
+ * @generated from message gridx.billing.v1.SettleTradeResponse
+ */
+export type SettleTradeResponse = Message<"gridx.billing.v1.SettleTradeResponse"> & {
+  /**
+   * @generated from field: string settlement_id = 1;
+   */
+  settlementId: string;
+
+  /**
+   * @generated from field: int64 trade_value = 2;
+   */
+  tradeValue: bigint;
+
+  /**
+   * @generated from field: int64 buyer_fee = 3;
+   */
+  buyerFee: bigint;
+
+  /**
+   * @generated from field: int64 seller_fee = 4;
+   */
+  sellerFee: bigint;
+
+  /**
+   * @generated from field: int64 buyer_released_remainder = 5;
+   */
+  buyerReleasedRemainder: bigint;
+
+  /**
+   * True when this trade was already settled, and these are the original amounts.
+   *
+   * @generated from field: bool already_settled = 6;
+   */
+  alreadySettled: boolean;
+};
+
+/**
+ * Describes the message gridx.billing.v1.SettleTradeResponse.
+ * Use `create(SettleTradeResponseSchema)` to create a new message.
+ */
+export const SettleTradeResponseSchema: GenMessage<SettleTradeResponse> = /*@__PURE__*/
+  messageDesc(file_gridx_billing_v1_order_billing, 5);
+
+/**
  * @generated from enum gridx.billing.v1.OrderType
  */
 export enum OrderType {
@@ -225,6 +333,18 @@ export const OrderBillingService: GenService<{
     methodKind: "unary";
     input: typeof ReleaseReservationRequestSchema;
     output: typeof ReleaseReservationResponseSchema;
+  },
+  /**
+   * Settles one matched trade: the buyer pays from their reservation, the seller is
+   * paid, and the platform takes both fees. Idempotent on trade_id: a retry returns
+   * the original result with already_settled set.
+   *
+   * @generated from rpc gridx.billing.v1.OrderBillingService.SettleTrade
+   */
+  settleTrade: {
+    methodKind: "unary";
+    input: typeof SettleTradeRequestSchema;
+    output: typeof SettleTradeResponseSchema;
   },
 }> = /*@__PURE__*/
   serviceDesc(file_gridx_billing_v1_order_billing, 0);

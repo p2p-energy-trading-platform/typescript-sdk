@@ -3,7 +3,7 @@
 /* eslint-disable */
 // @ts-nocheck
 
-import { ReleaseReservationRequest, ReleaseReservationResponse, ReserveCreditsRequest, ReserveCreditsResponse } from "./order_billing_pb.js";
+import { ReleaseReservationRequest, ReleaseReservationResponse, ReserveCreditsRequest, ReserveCreditsResponse, SettleTradeRequest, SettleTradeResponse } from "./order_billing_pb.js";
 import { MethodKind } from "@bufbuild/protobuf";
 
 /**
@@ -37,6 +37,19 @@ export const OrderBillingService = {
       name: "ReleaseReservation",
       I: ReleaseReservationRequest,
       O: ReleaseReservationResponse,
+      kind: MethodKind.Unary,
+    },
+    /**
+     * Settles one matched trade: the buyer pays from their reservation, the seller is
+     * paid, and the platform takes both fees. Idempotent on trade_id: a retry returns
+     * the original result with already_settled set.
+     *
+     * @generated from rpc gridx.billing.v1.OrderBillingService.SettleTrade
+     */
+    settleTrade: {
+      name: "SettleTrade",
+      I: SettleTradeRequest,
+      O: SettleTradeResponse,
       kind: MethodKind.Unary,
     },
   }
