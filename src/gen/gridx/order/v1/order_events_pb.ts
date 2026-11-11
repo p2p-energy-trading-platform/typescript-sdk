@@ -12,7 +12,7 @@ import type { Message } from "@bufbuild/protobuf";
  * Describes the file gridx/order/v1/order_events.proto.
  */
 export const file_gridx_order_v1_order_events: GenFile = /*@__PURE__*/
-  fileDesc("CiFncmlkeC9vcmRlci92MS9vcmRlcl9ldmVudHMucHJvdG8SDmdyaWR4Lm9yZGVyLnYxIkMKCE1hcmtldElkEjcKE2RlbGl2ZXJ5X3Nsb3Rfc3RhcnQYASABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wIqQDCg1PcmRlckFjY2VwdGVkEhAKCGV2ZW50X2lkGAEgASgJEhAKCG9yZGVyX2lkGAIgASgEEg8KB3VzZXJfaWQYAyABKAQSKwoJbWFya2V0X2lkGAQgASgLMhguZ3JpZHgub3JkZXIudjEuTWFya2V0SWQSFAoMZ3JpZF96b25lX2lkGAUgASgNEiIKBHNpZGUYBiABKA4yFC5ncmlkeC5vcmRlci52MS5TaWRlEi0KCm9yZGVyX3R5cGUYByABKA4yGS5ncmlkeC5vcmRlci52MS5PcmRlclR5cGUSKwoGc3RhdHVzGAggASgOMhsuZ3JpZHgub3JkZXIudjEuT3JkZXJTdGF0dXMSDQoFcHJpY2UYCSABKAMSEAoIcXVhbnRpdHkYCiABKAMSGgoScmVtYWluaW5nX3F1YW50aXR5GAsgASgBEi4KCmV4cGlyZXNfYXQYDCABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEi4KCmNyZWF0ZWRfYXQYDSABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wKjkKBFNpZGUSFAoQU0lERV9VTlNQRUNJRklFRBAAEgwKCFNJREVfQlVZEAESDQoJU0lERV9TRUxMEAIqPQoJT3JkZXJUeXBlEhoKFk9SREVSX1RZUEVfVU5TUEVDSUZJRUQQABIUChBPUkRFUl9UWVBFX0xJTUlUEAEqswEKC09yZGVyU3RhdHVzEhwKGE9SREVSX1NUQVRVU19VTlNQRUNJRklFRBAAEhQKEE9SREVSX1NUQVRVU19ORVcQARIhCh1PUkRFUl9TVEFUVVNfUEFSVElBTExZX0ZJTExFRBACEhcKE09SREVSX1NUQVRVU19GSUxMRUQQAxIaChZPUkRFUl9TVEFUVVNfQ0FOQ0VMTEVEEAQSGAoUT1JERVJfU1RBVFVTX0VYUElSRUQQBUJKWkhnaXRodWIuY29tL3AycC1lbmVyZ3ktdHJhZGluZy1wbGF0Zm9ybS9nby1zZGsvZ2VuL2dyaWR4L29yZGVyL3YxO29yZGVydjFiBnByb3RvMw", [file_google_protobuf_timestamp]);
+  fileDesc("CiFncmlkeC9vcmRlci92MS9vcmRlcl9ldmVudHMucHJvdG8SDmdyaWR4Lm9yZGVyLnYxIkMKCE1hcmtldElkEjcKE2RlbGl2ZXJ5X3Nsb3Rfc3RhcnQYASABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wIqoDCg1PcmRlckFjY2VwdGVkEhAKCGV2ZW50X2lkGAEgASgJEhAKCG9yZGVyX2lkGAIgASgEEg8KB3VzZXJfaWQYDiABKAkSKwoJbWFya2V0X2lkGAQgASgLMhguZ3JpZHgub3JkZXIudjEuTWFya2V0SWQSFAoMZ3JpZF96b25lX2lkGAUgASgNEiIKBHNpZGUYBiABKA4yFC5ncmlkeC5vcmRlci52MS5TaWRlEi0KCm9yZGVyX3R5cGUYByABKA4yGS5ncmlkeC5vcmRlci52MS5PcmRlclR5cGUSKwoGc3RhdHVzGAggASgOMhsuZ3JpZHgub3JkZXIudjEuT3JkZXJTdGF0dXMSDQoFcHJpY2UYCSABKAMSEAoIcXVhbnRpdHkYCiABKAMSGgoScmVtYWluaW5nX3F1YW50aXR5GAsgASgBEi4KCmV4cGlyZXNfYXQYDCABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEi4KCmNyZWF0ZWRfYXQYDSABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wSgQIAxAEKjkKBFNpZGUSFAoQU0lERV9VTlNQRUNJRklFRBAAEgwKCFNJREVfQlVZEAESDQoJU0lERV9TRUxMEAIqPQoJT3JkZXJUeXBlEhoKFk9SREVSX1RZUEVfVU5TUEVDSUZJRUQQABIUChBPUkRFUl9UWVBFX0xJTUlUEAEqswEKC09yZGVyU3RhdHVzEhwKGE9SREVSX1NUQVRVU19VTlNQRUNJRklFRBAAEhQKEE9SREVSX1NUQVRVU19ORVcQARIhCh1PUkRFUl9TVEFUVVNfUEFSVElBTExZX0ZJTExFRBACEhcKE09SREVSX1NUQVRVU19GSUxMRUQQAxIaChZPUkRFUl9TVEFUVVNfQ0FOQ0VMTEVEEAQSGAoUT1JERVJfU1RBVFVTX0VYUElSRUQQBUJKWkhnaXRodWIuY29tL3AycC1lbmVyZ3ktdHJhZGluZy1wbGF0Zm9ybS9nby1zZGsvZ2VuL2dyaWR4L29yZGVyL3YxO29yZGVydjFiBnByb3RvMw", [file_google_protobuf_timestamp]);
 
 /**
  * @generated from message gridx.order.v1.MarketId
@@ -46,9 +46,9 @@ export type OrderAccepted = Message<"gridx.order.v1.OrderAccepted"> & {
   orderId: bigint;
 
   /**
-   * @generated from field: uint64 user_id = 3;
+   * @generated from field: string user_id = 14;
    */
-  userId: bigint;
+  userId: string;
 
   /**
    * @generated from field: gridx.order.v1.MarketId market_id = 4;
@@ -76,16 +76,22 @@ export type OrderAccepted = Message<"gridx.order.v1.OrderAccepted"> & {
   status: OrderStatus;
 
   /**
+   * Limit price, in micro-AED per kWh (1 AED = 1,000,000 micro-AED).
+   *
    * @generated from field: int64 price = 9;
    */
   price: bigint;
 
   /**
+   * Order quantity, in Wh (1 kWh = 1,000 Wh).
+   *
    * @generated from field: int64 quantity = 10;
    */
   quantity: bigint;
 
   /**
+   * Unfilled quantity, in Wh (1 kWh = 1,000 Wh).
+   *
    * @generated from field: double remaining_quantity = 11;
    */
   remainingQuantity: number;

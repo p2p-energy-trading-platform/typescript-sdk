@@ -12,7 +12,7 @@ import type { Message } from "@bufbuild/protobuf";
  * Describes the file gridx/trade/v1/trade_events.proto.
  */
 export const file_gridx_trade_v1_trade_events: GenFile = /*@__PURE__*/
-  fileDesc("CiFncmlkeC90cmFkZS92MS90cmFkZV9ldmVudHMucHJvdG8SDmdyaWR4LnRyYWRlLnYxIs8CCg1UcmFkZUV4ZWN1dGVkEhAKCGV2ZW50X2lkGAEgASgJEhAKCHRyYWRlX2lkGAIgASgEEhQKDGJ1eV9vcmRlcl9pZBgDIAEoBBIVCg1zZWxsX29yZGVyX2lkGAQgASgEEhAKCGJ1eWVyX2lkGAUgASgEEhEKCXNlbGxlcl9pZBgGIAEoBBIaChJidXllcl9ncmlkX3pvbmVfaWQYByABKA0SGwoTc2VsbGVyX2dyaWRfem9uZV9pZBgIIAEoDRIXCg9leGVjdXRpb25fcHJpY2UYCSABKAMSGAoQZ3JpZF9mZWVfcGVyX2t3aBgKIAEoAxIQCghxdWFudGl0eRgLIAEoAxIZChFncmlkX3J1bGVfdmVyc2lvbhgMIAEoDRIvCgtleGVjdXRlZF9hdBgNIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXBCSlpIZ2l0aHViLmNvbS9wMnAtZW5lcmd5LXRyYWRpbmctcGxhdGZvcm0vZ28tc2RrL2dlbi9ncmlkeC90cmFkZS92MTt0cmFkZXYxYgZwcm90bzM", [file_google_protobuf_timestamp]);
+  fileDesc("CiFncmlkeC90cmFkZS92MS90cmFkZV9ldmVudHMucHJvdG8SDmdyaWR4LnRyYWRlLnYxIvoCCg1UcmFkZUV4ZWN1dGVkEhAKCGV2ZW50X2lkGAEgASgJEhAKCHRyYWRlX2lkGAIgASgEEhQKDGJ1eV9vcmRlcl9pZBgDIAEoBBIVCg1zZWxsX29yZGVyX2lkGAQgASgEEhUKDWJ1eWVyX3VzZXJfaWQYDiABKAkSFgoOc2VsbGVyX3VzZXJfaWQYDyABKAkSGgoSYnV5ZXJfZ3JpZF96b25lX2lkGAcgASgNEhsKE3NlbGxlcl9ncmlkX3pvbmVfaWQYCCABKA0SFwoPZXhlY3V0aW9uX3ByaWNlGAkgASgDEhgKEGdyaWRfZmVlX3Blcl9rd2gYCiABKAMSEAoIcXVhbnRpdHkYCyABKAMSGQoRZ3JpZF9ydWxlX3ZlcnNpb24YDCABKA0SLwoLZXhlY3V0ZWRfYXQYDSABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wSgQIBRAGSgQIBhAHUghidXllcl9pZFIJc2VsbGVyX2lkQkpaSGdpdGh1Yi5jb20vcDJwLWVuZXJneS10cmFkaW5nLXBsYXRmb3JtL2dvLXNkay9nZW4vZ3JpZHgvdHJhZGUvdjE7dHJhZGV2MWIGcHJvdG8z", [file_google_protobuf_timestamp]);
 
 /**
  * @generated from message gridx.trade.v1.TradeExecuted
@@ -39,14 +39,14 @@ export type TradeExecuted = Message<"gridx.trade.v1.TradeExecuted"> & {
   sellOrderId: bigint;
 
   /**
-   * @generated from field: uint64 buyer_id = 5;
+   * @generated from field: string buyer_user_id = 14;
    */
-  buyerId: bigint;
+  buyerUserId: string;
 
   /**
-   * @generated from field: uint64 seller_id = 6;
+   * @generated from field: string seller_user_id = 15;
    */
-  sellerId: bigint;
+  sellerUserId: string;
 
   /**
    * @generated from field: uint32 buyer_grid_zone_id = 7;
@@ -59,16 +59,22 @@ export type TradeExecuted = Message<"gridx.trade.v1.TradeExecuted"> & {
   sellerGridZoneId: number;
 
   /**
+   * Energy price paid to the seller, in micro-AED per kWh (1 AED = 1,000,000 micro-AED).
+   *
    * @generated from field: int64 execution_price = 9;
    */
   executionPrice: bigint;
 
   /**
+   * Grid transfer fee charged to the buyer, in micro-AED per kWh (1 AED = 1,000,000 micro-AED).
+   *
    * @generated from field: int64 grid_fee_per_kwh = 10;
    */
   gridFeePerKwh: bigint;
 
   /**
+   * Traded energy, in Wh (1 kWh = 1,000 Wh).
+   *
    * @generated from field: int64 quantity = 11;
    */
   quantity: bigint;
