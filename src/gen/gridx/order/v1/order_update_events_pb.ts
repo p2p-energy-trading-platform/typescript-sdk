@@ -14,7 +14,7 @@ import type { Message } from "@bufbuild/protobuf";
  * Describes the file gridx/order/v1/order_update_events.proto.
  */
 export const file_gridx_order_v1_order_update_events: GenFile = /*@__PURE__*/
-  fileDesc("CihncmlkeC9vcmRlci92MS9vcmRlcl91cGRhdGVfZXZlbnRzLnByb3RvEg5ncmlkeC5vcmRlci52MSLgAQoMT3JkZXJVcGRhdGVkEhAKCGV2ZW50X2lkGAEgASgJEjMKCmV2ZW50X3R5cGUYAiABKA4yHy5ncmlkeC5vcmRlci52MS5PcmRlclVwZGF0ZVR5cGUSEAoIb3JkZXJfaWQYAyABKAQSKwoGc3RhdHVzGAQgASgOMhsuZ3JpZHgub3JkZXIudjEuT3JkZXJTdGF0dXMSGgoScmVtYWluaW5nX3F1YW50aXR5GAUgASgDEi4KCnVwZGF0ZWRfYXQYBiABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wKtkBCg9PcmRlclVwZGF0ZVR5cGUSIQodT1JERVJfVVBEQVRFX1RZUEVfVU5TUEVDSUZJRUQQABIdChlPUkRFUl9VUERBVEVfVFlQRV9VUERBVEVEEAESJgoiT1JERVJfVVBEQVRFX1RZUEVfUEFSVElBTExZX0ZJTExFRBACEhwKGE9SREVSX1VQREFURV9UWVBFX0ZJTExFRBADEh8KG09SREVSX1VQREFURV9UWVBFX0NBTkNFTExFRBAEEh0KGU9SREVSX1VQREFURV9UWVBFX0VYUElSRUQQBUJKWkhnaXRodWIuY29tL3AycC1lbmVyZ3ktdHJhZGluZy1wbGF0Zm9ybS9nby1zZGsvZ2VuL2dyaWR4L29yZGVyL3YxO29yZGVydjFiBnByb3RvMw", [file_google_protobuf_timestamp, file_gridx_order_v1_order_events]);
+  fileDesc("CihncmlkeC9vcmRlci92MS9vcmRlcl91cGRhdGVfZXZlbnRzLnByb3RvEg5ncmlkeC5vcmRlci52MSKMAgoMT3JkZXJVcGRhdGVkEhAKCGV2ZW50X2lkGAEgASgJEjMKCmV2ZW50X3R5cGUYAiABKA4yHy5ncmlkeC5vcmRlci52MS5PcmRlclVwZGF0ZVR5cGUSEAoIb3JkZXJfaWQYAyABKAQSKwoGc3RhdHVzGAQgASgOMhsuZ3JpZHgub3JkZXIudjEuT3JkZXJTdGF0dXMSGgoScmVtYWluaW5nX3F1YW50aXR5GAUgASgDEi4KCnVwZGF0ZWRfYXQYBiABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEg8KB3VzZXJfaWQYByABKAkSGQoRb3JpZ2luYWxfcXVhbnRpdHkYCCABKAMq2QEKD09yZGVyVXBkYXRlVHlwZRIhCh1PUkRFUl9VUERBVEVfVFlQRV9VTlNQRUNJRklFRBAAEh0KGU9SREVSX1VQREFURV9UWVBFX1VQREFURUQQARImCiJPUkRFUl9VUERBVEVfVFlQRV9QQVJUSUFMTFlfRklMTEVEEAISHAoYT1JERVJfVVBEQVRFX1RZUEVfRklMTEVEEAMSHwobT1JERVJfVVBEQVRFX1RZUEVfQ0FOQ0VMTEVEEAQSHQoZT1JERVJfVVBEQVRFX1RZUEVfRVhQSVJFRBAFQkpaSGdpdGh1Yi5jb20vcDJwLWVuZXJneS10cmFkaW5nLXBsYXRmb3JtL2dvLXNkay9nZW4vZ3JpZHgvb3JkZXIvdjE7b3JkZXJ2MWIGcHJvdG8z", [file_google_protobuf_timestamp, file_gridx_order_v1_order_events]);
 
 /**
  * @generated from message gridx.order.v1.OrderUpdated
@@ -49,6 +49,16 @@ export type OrderUpdated = Message<"gridx.order.v1.OrderUpdated"> & {
    * @generated from field: google.protobuf.Timestamp updated_at = 6;
    */
   updatedAt?: Timestamp | undefined;
+
+  /**
+   * @generated from field: string user_id = 7;
+   */
+  userId: string;
+
+  /**
+   * @generated from field: int64 original_quantity = 8;
+   */
+  originalQuantity: bigint;
 };
 
 /**
