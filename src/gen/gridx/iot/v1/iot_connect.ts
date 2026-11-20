@@ -3,7 +3,7 @@
 /* eslint-disable */
 // @ts-nocheck
 
-import { GetEnergySeriesRequest, GetEnergySeriesResponse, GetEnergySummaryRequest, GetEnergySummaryResponse, GetHouseRequest, GetHouseResponse, GetLatestReadingRequest, GetLatestReadingResponse, GetRegistrationByUserRequest, GetRegistrationByUserResponse, GetRegistrationStatusRequest, GetRegistrationStatusResponse, InitiateMeterClaimRequest, InitiateMeterClaimResponse, ListHousesRequest, ListHousesResponse, ReverifyRegistrationRequest, ReverifyRegistrationResponse, ValidateDeviceAssociationRequest, ValidateDeviceAssociationResponse } from "./iot_pb.js";
+import { GetEnergySeriesRequest, GetEnergySeriesResponse, GetEnergySummaryRequest, GetEnergySummaryResponse, GetHouseRequest, GetHouseResponse, GetLatestReadingRequest, GetLatestReadingResponse, GetRegistrationByUserRequest, GetRegistrationByUserResponse, GetRegistrationStatusRequest, GetRegistrationStatusResponse, InitiateMeterClaimRequest, InitiateMeterClaimResponse, ListHousesRequest, ListHousesResponse, ReverifyRegistrationRequest, ReverifyRegistrationResponse, StreamHouseLiveRequest, StreamHouseLiveResponse, ValidateDeviceAssociationRequest, ValidateDeviceAssociationResponse } from "./iot_pb.js";
 import { MethodKind } from "@bufbuild/protobuf";
 
 /**
@@ -61,6 +61,24 @@ export const IotService = {
       I: GetEnergySummaryRequest,
       O: GetEnergySummaryResponse,
       kind: MethodKind.Unary,
+    },
+    /**
+     * Streams live updates for one house: first the current status and latest
+     * reading (if any), then each newer reading and every meter status change.
+     * Delivery is best effort with no replay; callers resync over the unary RPCs.
+     * The server ends the stream after its maximum age; callers reopen it.
+     * Errors: INVALID_ARGUMENT (bad house ID), NOT_FOUND (unknown house, or not
+     * owned when owner_user_id is set), UNAVAILABLE (live feed down or the server
+     * shutting down; retry with backoff), DEADLINE_EXCEEDED (the stream reached
+     * its maximum age; reopen it).
+     *
+     * @generated from rpc gridx.iot.v1.IotService.StreamHouseLive
+     */
+    streamHouseLive: {
+      name: "StreamHouseLive",
+      I: StreamHouseLiveRequest,
+      O: StreamHouseLiveResponse,
+      kind: MethodKind.ServerStreaming,
     },
   }
 } as const;
