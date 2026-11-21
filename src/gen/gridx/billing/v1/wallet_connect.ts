@@ -3,7 +3,7 @@
 /* eslint-disable */
 // @ts-nocheck
 
-import { GetWalletRequest, GetWalletResponse } from "./wallet_pb.js";
+import { CancelWithdrawalRequest, CancelWithdrawalResponse, ConfirmDepositRequest, ConfirmDepositResponse, CreateDepositIntentRequest, CreateDepositIntentResponse, GetDepositRequest, GetDepositResponse, GetWalletRequest, GetWalletResponse, ListTransactionsRequest, ListTransactionsResponse, ListWithdrawalsRequest, ListWithdrawalsResponse, RequestWithdrawalRequest, RequestWithdrawalResponse } from "./wallet_pb.js";
 import { MethodKind } from "@bufbuild/protobuf";
 
 /**
@@ -25,6 +25,73 @@ export const WalletService = {
       name: "GetWallet",
       I: GetWalletRequest,
       O: GetWalletResponse,
+      kind: MethodKind.Unary,
+    },
+    /**
+     * @generated from rpc gridx.billing.v1.WalletService.ListTransactions
+     */
+    listTransactions: {
+      name: "ListTransactions",
+      I: ListTransactionsRequest,
+      O: ListTransactionsResponse,
+      kind: MethodKind.Unary,
+    },
+    /**
+     * Deposits
+     *
+     * @generated from rpc gridx.billing.v1.WalletService.CreateDepositIntent
+     */
+    createDepositIntent: {
+      name: "CreateDepositIntent",
+      I: CreateDepositIntentRequest,
+      O: CreateDepositIntentResponse,
+      kind: MethodKind.Unary,
+    },
+    /**
+     * @generated from rpc gridx.billing.v1.WalletService.ConfirmDeposit
+     */
+    confirmDeposit: {
+      name: "ConfirmDeposit",
+      I: ConfirmDepositRequest,
+      O: ConfirmDepositResponse,
+      kind: MethodKind.Unary,
+    },
+    /**
+     * @generated from rpc gridx.billing.v1.WalletService.GetDeposit
+     */
+    getDeposit: {
+      name: "GetDeposit",
+      I: GetDepositRequest,
+      O: GetDepositResponse,
+      kind: MethodKind.Unary,
+    },
+    /**
+     * Withdrawals
+     *
+     * @generated from rpc gridx.billing.v1.WalletService.RequestWithdrawal
+     */
+    requestWithdrawal: {
+      name: "RequestWithdrawal",
+      I: RequestWithdrawalRequest,
+      O: RequestWithdrawalResponse,
+      kind: MethodKind.Unary,
+    },
+    /**
+     * @generated from rpc gridx.billing.v1.WalletService.CancelWithdrawal
+     */
+    cancelWithdrawal: {
+      name: "CancelWithdrawal",
+      I: CancelWithdrawalRequest,
+      O: CancelWithdrawalResponse,
+      kind: MethodKind.Unary,
+    },
+    /**
+     * @generated from rpc gridx.billing.v1.WalletService.ListWithdrawals
+     */
+    listWithdrawals: {
+      name: "ListWithdrawals",
+      I: ListWithdrawalsRequest,
+      O: ListWithdrawalsResponse,
       kind: MethodKind.Unary,
     },
   }

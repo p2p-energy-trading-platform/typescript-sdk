@@ -12,7 +12,7 @@ import type { Message } from "@bufbuild/protobuf";
  * Describes the file gridx/billing/v1/wallet.proto.
  */
 export const file_gridx_billing_v1_wallet: GenFile = /*@__PURE__*/
-  fileDesc("Ch1ncmlkeC9iaWxsaW5nL3YxL3dhbGxldC5wcm90bxIQZ3JpZHguYmlsbGluZy52MSLAAQoGV2FsbGV0EhEKCXdhbGxldF9pZBgBIAEoCRIPCgd1c2VyX2lkGAIgASgJEhEKCWF2YWlsYWJsZRgDIAEoAxIQCghyZXNlcnZlZBgEIAEoAxINCgV0b3RhbBgFIAEoAxIuCgZzdGF0dXMYBiABKA4yHi5ncmlkeC5iaWxsaW5nLnYxLldhbGxldFN0YXR1cxIuCgp1cGRhdGVkX2F0GAcgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcCISChBHZXRXYWxsZXRSZXF1ZXN0Ij0KEUdldFdhbGxldFJlc3BvbnNlEigKBndhbGxldBgBIAEoCzIYLmdyaWR4LmJpbGxpbmcudjEuV2FsbGV0KnsKDFdhbGxldFN0YXR1cxIdChlXQUxMRVRfU1RBVFVTX1VOU1BFQ0lGSUVEEAASGAoUV0FMTEVUX1NUQVRVU19BQ1RJVkUQARIYChRXQUxMRVRfU1RBVFVTX0ZST1pFThACEhgKFFdBTExFVF9TVEFUVVNfQ0xPU0VEEAMyZQoNV2FsbGV0U2VydmljZRJUCglHZXRXYWxsZXQSIi5ncmlkeC5iaWxsaW5nLnYxLkdldFdhbGxldFJlcXVlc3QaIy5ncmlkeC5iaWxsaW5nLnYxLkdldFdhbGxldFJlc3BvbnNlQk5aTGdpdGh1Yi5jb20vcDJwLWVuZXJneS10cmFkaW5nLXBsYXRmb3JtL2dvLXNkay9nZW4vZ3JpZHgvYmlsbGluZy92MTtiaWxsaW5ndjFiBnByb3RvMw", [file_google_protobuf_timestamp]);
+  fileDesc("Ch1ncmlkeC9iaWxsaW5nL3YxL3dhbGxldC5wcm90bxIQZ3JpZHguYmlsbGluZy52MSLAAQoGV2FsbGV0EhEKCXdhbGxldF9pZBgBIAEoCRIPCgd1c2VyX2lkGAIgASgJEhEKCWF2YWlsYWJsZRgDIAEoAxIQCghyZXNlcnZlZBgEIAEoAxINCgV0b3RhbBgFIAEoAxIuCgZzdGF0dXMYBiABKA4yHi5ncmlkeC5iaWxsaW5nLnYxLldhbGxldFN0YXR1cxIuCgp1cGRhdGVkX2F0GAcgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcCISChBHZXRXYWxsZXRSZXF1ZXN0Ij0KEUdldFdhbGxldFJlc3BvbnNlEigKBndhbGxldBgBIAEoCzIYLmdyaWR4LmJpbGxpbmcudjEuV2FsbGV0IooCCg1EZXBvc2l0SW50ZW50EhIKCmRlcG9zaXRfaWQYASABKAkSLwoGc3RhdHVzGAIgASgOMh8uZ3JpZHguYmlsbGluZy52MS5EZXBvc2l0U3RhdHVzEhQKDGNoZWNrb3V0X3VybBgDIAEoCRIOCgZhbW91bnQYBCABKAMSFwoPY2hhcmdlX2N1cnJlbmN5GAUgASgJEhUKDWNoYXJnZV9hbW91bnQYBiABKAMSLgoKZXhwaXJlc19hdBgHIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXASLgoKY3JlYXRlZF9hdBgIIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXAibgoaQ3JlYXRlRGVwb3NpdEludGVudFJlcXVlc3QSFwoPaWRlbXBvdGVuY3lfa2V5GAEgASgJEg4KBmFtb3VudBgCIAEoAxITCgtzdWNjZXNzX3VybBgDIAEoCRISCgpjYW5jZWxfdXJsGAQgASgJIk8KG0NyZWF0ZURlcG9zaXRJbnRlbnRSZXNwb25zZRIwCgdkZXBvc2l0GAEgASgLMh8uZ3JpZHguYmlsbGluZy52MS5EZXBvc2l0SW50ZW50IqABChVDb25maXJtRGVwb3NpdFJlcXVlc3QSEAoIcmF3X2JvZHkYASABKAwSRQoHaGVhZGVycxgCIAMoCzI0LmdyaWR4LmJpbGxpbmcudjEuQ29uZmlybURlcG9zaXRSZXF1ZXN0LkhlYWRlcnNFbnRyeRouCgxIZWFkZXJzRW50cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4ASJxChZDb25maXJtRGVwb3NpdFJlc3BvbnNlEhEKCXByb2Nlc3NlZBgBIAEoCBITCgtkZXNwb3NpdF9pZBgCIAEoCRIvCgZzdGF0dXMYAyABKA4yHy5ncmlkeC5iaWxsaW5nLnYxLkRlcG9zaXRTdGF0dXMiJwoRR2V0RGVwb3NpdFJlcXVlc3QSEgoKZGVwb3NpdF9pZBgBIAEoCSJGChJHZXREZXBvc2l0UmVzcG9uc2USMAoHZGVwb3NpdBgBIAEoCzIfLmdyaWR4LmJpbGxpbmcudjEuRGVwb3NpdEludGVudCLaAQoKV2l0aGRyYXdhbBIVCg13aXRoZHJhd2FsX2lkGAEgASgJEhEKCXdhbGxldF9pZBgCIAEoCRIOCgZhbW91bnQYAyABKAMSMgoGc3RhdHVzGAQgASgOMiIuZ3JpZHguYmlsbGluZy52MS5XaXRoZHJhd2FsU3RhdHVzEi4KCmNyZWF0ZWRfYXQYBSABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEi4KCnVwZGF0ZWRfYXQYBiABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wIl0KGFJlcXVlc3RXaXRoZHJhd2FsUmVxdWVzdBIXCg9pZGVtcG90ZW5jeV9rZXkYASABKAkSDgoGYW1vdW50GAIgASgDEhgKEGRlc3RpbmF0aW9uX2pzb24YAyABKAwiTQoZUmVxdWVzdFdpdGhkcmF3YWxSZXNwb25zZRIwCgp3aXRoZHJhd2FsGAEgASgLMhwuZ3JpZHguYmlsbGluZy52MS5XaXRoZHJhd2FsIjAKF0NhbmNlbFdpdGhkcmF3YWxSZXF1ZXN0EhUKDXdpdGhkcmF3YWxfaWQYASABKAkiTAoYQ2FuY2VsV2l0aGRyYXdhbFJlc3BvbnNlEjAKCndpdGhkcmF3YWwYASABKAsyHC5ncmlkeC5iaWxsaW5nLnYxLldpdGhkcmF3YWwiPwoWTGlzdFdpdGhkcmF3YWxzUmVxdWVzdBIRCglwYWdlX3NpemUYASABKAUSEgoKcGFnZV90b2tlbhgCIAEoCSJlChdMaXN0V2l0aGRyYXdhbHNSZXNwb25zZRIxCgt3aXRoZHJhd2FscxgBIAMoCzIcLmdyaWR4LmJpbGxpbmcudjEuV2l0aGRyYXdhbBIXCg9uZXh0X3BhZ2VfdG9rZW4YAiABKAkiQAoXTGlzdFRyYW5zYWN0aW9uc1JlcXVlc3QSEQoJcGFnZV9zaXplGAEgASgFEhIKCnBhZ2VfdG9rZW4YAiABKAkinAEKD1RyYW5zYWN0aW9uSXRlbRIQCghlbnRyeV9pZBgBIAEoAxISCgpqb3VybmFsX2lkGAIgASgJEgwKBHR5cGUYAyABKAkSDgoGYW1vdW50GAQgASgDEhUKDWJhbGFuY2VfYWZ0ZXIYBSABKAMSLgoKY3JlYXRlZF9hdBgGIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXAibAoYTGlzdFRyYW5zYWN0aW9uc1Jlc3BvbnNlEjcKDHRyYW5zYWN0aW9ucxgBIAMoCzIhLmdyaWR4LmJpbGxpbmcudjEuVHJhbnNhY3Rpb25JdGVtEhcKD25leHRfcGFnZV90b2tlbhgCIAEoCSp7CgxXYWxsZXRTdGF0dXMSHQoZV0FMTEVUX1NUQVRVU19VTlNQRUNJRklFRBAAEhgKFFdBTExFVF9TVEFUVVNfQUNUSVZFEAESGAoUV0FMTEVUX1NUQVRVU19GUk9aRU4QAhIYChRXQUxMRVRfU1RBVFVTX0NMT1NFRBADKtoBCg1EZXBvc2l0U3RhdHVzEh4KGkRFUE9TSVRfU1RBVFVTX1VOU1BFQ0lGSUVEEAASGgoWREVQT1NJVF9TVEFUVVNfUEVORElORxABEhwKGERFUE9TSVRfU1RBVFVTX0NPTVBMRVRFRBACEhkKFURFUE9TSVRfU1RBVFVTX0ZBSUxFRBADEhoKFkRFUE9TSVRfU1RBVFVTX0VYUElSRUQQBBIbChdERVBPU0lUX1NUQVRVU19SRUZVTkRFRBAFEhsKF0RFUE9TSVRfU1RBVFVTX0RJU1BVVEVEEAYq7wEKEFdpdGhkcmF3YWxTdGF0dXMSIQodV0lUSERSQVdBTF9TVEFUVVNfVU5TUEVDSUZJRUQQABIdChlXSVRIRFJBV0FMX1NUQVRVU19QRU5ESU5HEAESHgoaV0lUSERSQVdBTF9TVEFUVVNfQVBQUk9WRUQQAhIaChZXSVRIRFJBV0FMX1NUQVRVU19QQUlEEAMSHgoaV0lUSERSQVdBTF9TVEFUVVNfUkVKRUNURUQQBBIfChtXSVRIRFJBV0FMX1NUQVRVU19DQU5DRUxMRUQQBRIcChhXSVRIRFJBV0FMX1NUQVRVU19GQUlMRUQQBjLDBgoNV2FsbGV0U2VydmljZRJUCglHZXRXYWxsZXQSIi5ncmlkeC5iaWxsaW5nLnYxLkdldFdhbGxldFJlcXVlc3QaIy5ncmlkeC5iaWxsaW5nLnYxLkdldFdhbGxldFJlc3BvbnNlEmkKEExpc3RUcmFuc2FjdGlvbnMSKS5ncmlkeC5iaWxsaW5nLnYxLkxpc3RUcmFuc2FjdGlvbnNSZXF1ZXN0GiouZ3JpZHguYmlsbGluZy52MS5MaXN0VHJhbnNhY3Rpb25zUmVzcG9uc2UScgoTQ3JlYXRlRGVwb3NpdEludGVudBIsLmdyaWR4LmJpbGxpbmcudjEuQ3JlYXRlRGVwb3NpdEludGVudFJlcXVlc3QaLS5ncmlkeC5iaWxsaW5nLnYxLkNyZWF0ZURlcG9zaXRJbnRlbnRSZXNwb25zZRJjCg5Db25maXJtRGVwb3NpdBInLmdyaWR4LmJpbGxpbmcudjEuQ29uZmlybURlcG9zaXRSZXF1ZXN0GiguZ3JpZHguYmlsbGluZy52MS5Db25maXJtRGVwb3NpdFJlc3BvbnNlElcKCkdldERlcG9zaXQSIy5ncmlkeC5iaWxsaW5nLnYxLkdldERlcG9zaXRSZXF1ZXN0GiQuZ3JpZHguYmlsbGluZy52MS5HZXREZXBvc2l0UmVzcG9uc2USbAoRUmVxdWVzdFdpdGhkcmF3YWwSKi5ncmlkeC5iaWxsaW5nLnYxLlJlcXVlc3RXaXRoZHJhd2FsUmVxdWVzdBorLmdyaWR4LmJpbGxpbmcudjEuUmVxdWVzdFdpdGhkcmF3YWxSZXNwb25zZRJpChBDYW5jZWxXaXRoZHJhd2FsEikuZ3JpZHguYmlsbGluZy52MS5DYW5jZWxXaXRoZHJhd2FsUmVxdWVzdBoqLmdyaWR4LmJpbGxpbmcudjEuQ2FuY2VsV2l0aGRyYXdhbFJlc3BvbnNlEmYKD0xpc3RXaXRoZHJhd2FscxIoLmdyaWR4LmJpbGxpbmcudjEuTGlzdFdpdGhkcmF3YWxzUmVxdWVzdBopLmdyaWR4LmJpbGxpbmcudjEuTGlzdFdpdGhkcmF3YWxzUmVzcG9uc2VCTlpMZ2l0aHViLmNvbS9wMnAtZW5lcmd5LXRyYWRpbmctcGxhdGZvcm0vZ28tc2RrL2dlbi9ncmlkeC9iaWxsaW5nL3YxO2JpbGxpbmd2MWIGcHJvdG8z", [file_google_protobuf_timestamp]);
 
 /**
  * All amounts are minor units: 1 credit = 100 units.
@@ -94,6 +94,442 @@ export const GetWalletResponseSchema: GenMessage<GetWalletResponse> = /*@__PURE_
   messageDesc(file_gridx_billing_v1_wallet, 2);
 
 /**
+ * @generated from message gridx.billing.v1.DepositIntent
+ */
+export type DepositIntent = Message<"gridx.billing.v1.DepositIntent"> & {
+  /**
+   * @generated from field: string deposit_id = 1;
+   */
+  depositId: string;
+
+  /**
+   * @generated from field: gridx.billing.v1.DepositStatus status = 2;
+   */
+  status: DepositStatus;
+
+  /**
+   * @generated from field: string checkout_url = 3;
+   */
+  checkoutUrl: string;
+
+  /**
+   * @generated from field: int64 amount = 4;
+   */
+  amount: bigint;
+
+  /**
+   * @generated from field: string charge_currency = 5;
+   */
+  chargeCurrency: string;
+
+  /**
+   * @generated from field: int64 charge_amount = 6;
+   */
+  chargeAmount: bigint;
+
+  /**
+   * @generated from field: google.protobuf.Timestamp expires_at = 7;
+   */
+  expiresAt?: Timestamp | undefined;
+
+  /**
+   * @generated from field: google.protobuf.Timestamp created_at = 8;
+   */
+  createdAt?: Timestamp | undefined;
+};
+
+/**
+ * Describes the message gridx.billing.v1.DepositIntent.
+ * Use `create(DepositIntentSchema)` to create a new message.
+ */
+export const DepositIntentSchema: GenMessage<DepositIntent> = /*@__PURE__*/
+  messageDesc(file_gridx_billing_v1_wallet, 3);
+
+/**
+ * @generated from message gridx.billing.v1.CreateDepositIntentRequest
+ */
+export type CreateDepositIntentRequest = Message<"gridx.billing.v1.CreateDepositIntentRequest"> & {
+  /**
+   * @generated from field: string idempotency_key = 1;
+   */
+  idempotencyKey: string;
+
+  /**
+   * @generated from field: int64 amount = 2;
+   */
+  amount: bigint;
+
+  /**
+   * @generated from field: string success_url = 3;
+   */
+  successUrl: string;
+
+  /**
+   * @generated from field: string cancel_url = 4;
+   */
+  cancelUrl: string;
+};
+
+/**
+ * Describes the message gridx.billing.v1.CreateDepositIntentRequest.
+ * Use `create(CreateDepositIntentRequestSchema)` to create a new message.
+ */
+export const CreateDepositIntentRequestSchema: GenMessage<CreateDepositIntentRequest> = /*@__PURE__*/
+  messageDesc(file_gridx_billing_v1_wallet, 4);
+
+/**
+ * @generated from message gridx.billing.v1.CreateDepositIntentResponse
+ */
+export type CreateDepositIntentResponse = Message<"gridx.billing.v1.CreateDepositIntentResponse"> & {
+  /**
+   * @generated from field: gridx.billing.v1.DepositIntent deposit = 1;
+   */
+  deposit?: DepositIntent | undefined;
+};
+
+/**
+ * Describes the message gridx.billing.v1.CreateDepositIntentResponse.
+ * Use `create(CreateDepositIntentResponseSchema)` to create a new message.
+ */
+export const CreateDepositIntentResponseSchema: GenMessage<CreateDepositIntentResponse> = /*@__PURE__*/
+  messageDesc(file_gridx_billing_v1_wallet, 5);
+
+/**
+ * @generated from message gridx.billing.v1.ConfirmDepositRequest
+ */
+export type ConfirmDepositRequest = Message<"gridx.billing.v1.ConfirmDepositRequest"> & {
+  /**
+   * @generated from field: bytes raw_body = 1;
+   */
+  rawBody: Uint8Array;
+
+  /**
+   * @generated from field: map<string, string> headers = 2;
+   */
+  headers: { [key: string]: string };
+};
+
+/**
+ * Describes the message gridx.billing.v1.ConfirmDepositRequest.
+ * Use `create(ConfirmDepositRequestSchema)` to create a new message.
+ */
+export const ConfirmDepositRequestSchema: GenMessage<ConfirmDepositRequest> = /*@__PURE__*/
+  messageDesc(file_gridx_billing_v1_wallet, 6);
+
+/**
+ * @generated from message gridx.billing.v1.ConfirmDepositResponse
+ */
+export type ConfirmDepositResponse = Message<"gridx.billing.v1.ConfirmDepositResponse"> & {
+  /**
+   * @generated from field: bool processed = 1;
+   */
+  processed: boolean;
+
+  /**
+   * @generated from field: string desposit_id = 2;
+   */
+  despositId: string;
+
+  /**
+   * @generated from field: gridx.billing.v1.DepositStatus status = 3;
+   */
+  status: DepositStatus;
+};
+
+/**
+ * Describes the message gridx.billing.v1.ConfirmDepositResponse.
+ * Use `create(ConfirmDepositResponseSchema)` to create a new message.
+ */
+export const ConfirmDepositResponseSchema: GenMessage<ConfirmDepositResponse> = /*@__PURE__*/
+  messageDesc(file_gridx_billing_v1_wallet, 7);
+
+/**
+ * @generated from message gridx.billing.v1.GetDepositRequest
+ */
+export type GetDepositRequest = Message<"gridx.billing.v1.GetDepositRequest"> & {
+  /**
+   * @generated from field: string deposit_id = 1;
+   */
+  depositId: string;
+};
+
+/**
+ * Describes the message gridx.billing.v1.GetDepositRequest.
+ * Use `create(GetDepositRequestSchema)` to create a new message.
+ */
+export const GetDepositRequestSchema: GenMessage<GetDepositRequest> = /*@__PURE__*/
+  messageDesc(file_gridx_billing_v1_wallet, 8);
+
+/**
+ * @generated from message gridx.billing.v1.GetDepositResponse
+ */
+export type GetDepositResponse = Message<"gridx.billing.v1.GetDepositResponse"> & {
+  /**
+   * @generated from field: gridx.billing.v1.DepositIntent deposit = 1;
+   */
+  deposit?: DepositIntent | undefined;
+};
+
+/**
+ * Describes the message gridx.billing.v1.GetDepositResponse.
+ * Use `create(GetDepositResponseSchema)` to create a new message.
+ */
+export const GetDepositResponseSchema: GenMessage<GetDepositResponse> = /*@__PURE__*/
+  messageDesc(file_gridx_billing_v1_wallet, 9);
+
+/**
+ * @generated from message gridx.billing.v1.Withdrawal
+ */
+export type Withdrawal = Message<"gridx.billing.v1.Withdrawal"> & {
+  /**
+   * @generated from field: string withdrawal_id = 1;
+   */
+  withdrawalId: string;
+
+  /**
+   * @generated from field: string wallet_id = 2;
+   */
+  walletId: string;
+
+  /**
+   * @generated from field: int64 amount = 3;
+   */
+  amount: bigint;
+
+  /**
+   * @generated from field: gridx.billing.v1.WithdrawalStatus status = 4;
+   */
+  status: WithdrawalStatus;
+
+  /**
+   * @generated from field: google.protobuf.Timestamp created_at = 5;
+   */
+  createdAt?: Timestamp | undefined;
+
+  /**
+   * @generated from field: google.protobuf.Timestamp updated_at = 6;
+   */
+  updatedAt?: Timestamp | undefined;
+};
+
+/**
+ * Describes the message gridx.billing.v1.Withdrawal.
+ * Use `create(WithdrawalSchema)` to create a new message.
+ */
+export const WithdrawalSchema: GenMessage<Withdrawal> = /*@__PURE__*/
+  messageDesc(file_gridx_billing_v1_wallet, 10);
+
+/**
+ * @generated from message gridx.billing.v1.RequestWithdrawalRequest
+ */
+export type RequestWithdrawalRequest = Message<"gridx.billing.v1.RequestWithdrawalRequest"> & {
+  /**
+   * @generated from field: string idempotency_key = 1;
+   */
+  idempotencyKey: string;
+
+  /**
+   * @generated from field: int64 amount = 2;
+   */
+  amount: bigint;
+
+  /**
+   * @generated from field: bytes destination_json = 3;
+   */
+  destinationJson: Uint8Array;
+};
+
+/**
+ * Describes the message gridx.billing.v1.RequestWithdrawalRequest.
+ * Use `create(RequestWithdrawalRequestSchema)` to create a new message.
+ */
+export const RequestWithdrawalRequestSchema: GenMessage<RequestWithdrawalRequest> = /*@__PURE__*/
+  messageDesc(file_gridx_billing_v1_wallet, 11);
+
+/**
+ * @generated from message gridx.billing.v1.RequestWithdrawalResponse
+ */
+export type RequestWithdrawalResponse = Message<"gridx.billing.v1.RequestWithdrawalResponse"> & {
+  /**
+   * @generated from field: gridx.billing.v1.Withdrawal withdrawal = 1;
+   */
+  withdrawal?: Withdrawal | undefined;
+};
+
+/**
+ * Describes the message gridx.billing.v1.RequestWithdrawalResponse.
+ * Use `create(RequestWithdrawalResponseSchema)` to create a new message.
+ */
+export const RequestWithdrawalResponseSchema: GenMessage<RequestWithdrawalResponse> = /*@__PURE__*/
+  messageDesc(file_gridx_billing_v1_wallet, 12);
+
+/**
+ * @generated from message gridx.billing.v1.CancelWithdrawalRequest
+ */
+export type CancelWithdrawalRequest = Message<"gridx.billing.v1.CancelWithdrawalRequest"> & {
+  /**
+   * @generated from field: string withdrawal_id = 1;
+   */
+  withdrawalId: string;
+};
+
+/**
+ * Describes the message gridx.billing.v1.CancelWithdrawalRequest.
+ * Use `create(CancelWithdrawalRequestSchema)` to create a new message.
+ */
+export const CancelWithdrawalRequestSchema: GenMessage<CancelWithdrawalRequest> = /*@__PURE__*/
+  messageDesc(file_gridx_billing_v1_wallet, 13);
+
+/**
+ * @generated from message gridx.billing.v1.CancelWithdrawalResponse
+ */
+export type CancelWithdrawalResponse = Message<"gridx.billing.v1.CancelWithdrawalResponse"> & {
+  /**
+   * @generated from field: gridx.billing.v1.Withdrawal withdrawal = 1;
+   */
+  withdrawal?: Withdrawal | undefined;
+};
+
+/**
+ * Describes the message gridx.billing.v1.CancelWithdrawalResponse.
+ * Use `create(CancelWithdrawalResponseSchema)` to create a new message.
+ */
+export const CancelWithdrawalResponseSchema: GenMessage<CancelWithdrawalResponse> = /*@__PURE__*/
+  messageDesc(file_gridx_billing_v1_wallet, 14);
+
+/**
+ * @generated from message gridx.billing.v1.ListWithdrawalsRequest
+ */
+export type ListWithdrawalsRequest = Message<"gridx.billing.v1.ListWithdrawalsRequest"> & {
+  /**
+   * @generated from field: int32 page_size = 1;
+   */
+  pageSize: number;
+
+  /**
+   * @generated from field: string page_token = 2;
+   */
+  pageToken: string;
+};
+
+/**
+ * Describes the message gridx.billing.v1.ListWithdrawalsRequest.
+ * Use `create(ListWithdrawalsRequestSchema)` to create a new message.
+ */
+export const ListWithdrawalsRequestSchema: GenMessage<ListWithdrawalsRequest> = /*@__PURE__*/
+  messageDesc(file_gridx_billing_v1_wallet, 15);
+
+/**
+ * @generated from message gridx.billing.v1.ListWithdrawalsResponse
+ */
+export type ListWithdrawalsResponse = Message<"gridx.billing.v1.ListWithdrawalsResponse"> & {
+  /**
+   * @generated from field: repeated gridx.billing.v1.Withdrawal withdrawals = 1;
+   */
+  withdrawals: Withdrawal[];
+
+  /**
+   * @generated from field: string next_page_token = 2;
+   */
+  nextPageToken: string;
+};
+
+/**
+ * Describes the message gridx.billing.v1.ListWithdrawalsResponse.
+ * Use `create(ListWithdrawalsResponseSchema)` to create a new message.
+ */
+export const ListWithdrawalsResponseSchema: GenMessage<ListWithdrawalsResponse> = /*@__PURE__*/
+  messageDesc(file_gridx_billing_v1_wallet, 16);
+
+/**
+ * @generated from message gridx.billing.v1.ListTransactionsRequest
+ */
+export type ListTransactionsRequest = Message<"gridx.billing.v1.ListTransactionsRequest"> & {
+  /**
+   * @generated from field: int32 page_size = 1;
+   */
+  pageSize: number;
+
+  /**
+   * @generated from field: string page_token = 2;
+   */
+  pageToken: string;
+};
+
+/**
+ * Describes the message gridx.billing.v1.ListTransactionsRequest.
+ * Use `create(ListTransactionsRequestSchema)` to create a new message.
+ */
+export const ListTransactionsRequestSchema: GenMessage<ListTransactionsRequest> = /*@__PURE__*/
+  messageDesc(file_gridx_billing_v1_wallet, 17);
+
+/**
+ * @generated from message gridx.billing.v1.TransactionItem
+ */
+export type TransactionItem = Message<"gridx.billing.v1.TransactionItem"> & {
+  /**
+   * @generated from field: int64 entry_id = 1;
+   */
+  entryId: bigint;
+
+  /**
+   * @generated from field: string journal_id = 2;
+   */
+  journalId: string;
+
+  /**
+   * DEPOSIT | WITHDRAWAL | TRADE_SETTLEMENT | ADJUSTMENT
+   *
+   * @generated from field: string type = 3;
+   */
+  type: string;
+
+  /**
+   * @generated from field: int64 amount = 4;
+   */
+  amount: bigint;
+
+  /**
+   * @generated from field: int64 balance_after = 5;
+   */
+  balanceAfter: bigint;
+
+  /**
+   * @generated from field: google.protobuf.Timestamp created_at = 6;
+   */
+  createdAt?: Timestamp | undefined;
+};
+
+/**
+ * Describes the message gridx.billing.v1.TransactionItem.
+ * Use `create(TransactionItemSchema)` to create a new message.
+ */
+export const TransactionItemSchema: GenMessage<TransactionItem> = /*@__PURE__*/
+  messageDesc(file_gridx_billing_v1_wallet, 18);
+
+/**
+ * @generated from message gridx.billing.v1.ListTransactionsResponse
+ */
+export type ListTransactionsResponse = Message<"gridx.billing.v1.ListTransactionsResponse"> & {
+  /**
+   * @generated from field: repeated gridx.billing.v1.TransactionItem transactions = 1;
+   */
+  transactions: TransactionItem[];
+
+  /**
+   * @generated from field: string next_page_token = 2;
+   */
+  nextPageToken: string;
+};
+
+/**
+ * Describes the message gridx.billing.v1.ListTransactionsResponse.
+ * Use `create(ListTransactionsResponseSchema)` to create a new message.
+ */
+export const ListTransactionsResponseSchema: GenMessage<ListTransactionsResponse> = /*@__PURE__*/
+  messageDesc(file_gridx_billing_v1_wallet, 19);
+
+/**
  * @generated from enum gridx.billing.v1.WalletStatus
  */
 export enum WalletStatus {
@@ -127,6 +563,98 @@ export const WalletStatusSchema: GenEnum<WalletStatus> = /*@__PURE__*/
   enumDesc(file_gridx_billing_v1_wallet, 0);
 
 /**
+ * @generated from enum gridx.billing.v1.DepositStatus
+ */
+export enum DepositStatus {
+  /**
+   * @generated from enum value: DEPOSIT_STATUS_UNSPECIFIED = 0;
+   */
+  UNSPECIFIED = 0,
+
+  /**
+   * @generated from enum value: DEPOSIT_STATUS_PENDING = 1;
+   */
+  PENDING = 1,
+
+  /**
+   * @generated from enum value: DEPOSIT_STATUS_COMPLETED = 2;
+   */
+  COMPLETED = 2,
+
+  /**
+   * @generated from enum value: DEPOSIT_STATUS_FAILED = 3;
+   */
+  FAILED = 3,
+
+  /**
+   * @generated from enum value: DEPOSIT_STATUS_EXPIRED = 4;
+   */
+  EXPIRED = 4,
+
+  /**
+   * @generated from enum value: DEPOSIT_STATUS_REFUNDED = 5;
+   */
+  REFUNDED = 5,
+
+  /**
+   * @generated from enum value: DEPOSIT_STATUS_DISPUTED = 6;
+   */
+  DISPUTED = 6,
+}
+
+/**
+ * Describes the enum gridx.billing.v1.DepositStatus.
+ */
+export const DepositStatusSchema: GenEnum<DepositStatus> = /*@__PURE__*/
+  enumDesc(file_gridx_billing_v1_wallet, 1);
+
+/**
+ * @generated from enum gridx.billing.v1.WithdrawalStatus
+ */
+export enum WithdrawalStatus {
+  /**
+   * @generated from enum value: WITHDRAWAL_STATUS_UNSPECIFIED = 0;
+   */
+  UNSPECIFIED = 0,
+
+  /**
+   * @generated from enum value: WITHDRAWAL_STATUS_PENDING = 1;
+   */
+  PENDING = 1,
+
+  /**
+   * @generated from enum value: WITHDRAWAL_STATUS_APPROVED = 2;
+   */
+  APPROVED = 2,
+
+  /**
+   * @generated from enum value: WITHDRAWAL_STATUS_PAID = 3;
+   */
+  PAID = 3,
+
+  /**
+   * @generated from enum value: WITHDRAWAL_STATUS_REJECTED = 4;
+   */
+  REJECTED = 4,
+
+  /**
+   * @generated from enum value: WITHDRAWAL_STATUS_CANCELLED = 5;
+   */
+  CANCELLED = 5,
+
+  /**
+   * @generated from enum value: WITHDRAWAL_STATUS_FAILED = 6;
+   */
+  FAILED = 6,
+}
+
+/**
+ * Describes the enum gridx.billing.v1.WithdrawalStatus.
+ */
+export const WithdrawalStatusSchema: GenEnum<WithdrawalStatus> = /*@__PURE__*/
+  enumDesc(file_gridx_billing_v1_wallet, 2);
+
+/**
  * WalletService is called by the API Gateway only. The gateway authenticates the
  * user and passes their id in the x-gridx-user-id metadata, so requests carry no
  * user id of their own.
@@ -143,6 +671,66 @@ export const WalletService: GenService<{
     methodKind: "unary";
     input: typeof GetWalletRequestSchema;
     output: typeof GetWalletResponseSchema;
+  },
+  /**
+   * @generated from rpc gridx.billing.v1.WalletService.ListTransactions
+   */
+  listTransactions: {
+    methodKind: "unary";
+    input: typeof ListTransactionsRequestSchema;
+    output: typeof ListTransactionsResponseSchema;
+  },
+  /**
+   * Deposits
+   *
+   * @generated from rpc gridx.billing.v1.WalletService.CreateDepositIntent
+   */
+  createDepositIntent: {
+    methodKind: "unary";
+    input: typeof CreateDepositIntentRequestSchema;
+    output: typeof CreateDepositIntentResponseSchema;
+  },
+  /**
+   * @generated from rpc gridx.billing.v1.WalletService.ConfirmDeposit
+   */
+  confirmDeposit: {
+    methodKind: "unary";
+    input: typeof ConfirmDepositRequestSchema;
+    output: typeof ConfirmDepositResponseSchema;
+  },
+  /**
+   * @generated from rpc gridx.billing.v1.WalletService.GetDeposit
+   */
+  getDeposit: {
+    methodKind: "unary";
+    input: typeof GetDepositRequestSchema;
+    output: typeof GetDepositResponseSchema;
+  },
+  /**
+   * Withdrawals
+   *
+   * @generated from rpc gridx.billing.v1.WalletService.RequestWithdrawal
+   */
+  requestWithdrawal: {
+    methodKind: "unary";
+    input: typeof RequestWithdrawalRequestSchema;
+    output: typeof RequestWithdrawalResponseSchema;
+  },
+  /**
+   * @generated from rpc gridx.billing.v1.WalletService.CancelWithdrawal
+   */
+  cancelWithdrawal: {
+    methodKind: "unary";
+    input: typeof CancelWithdrawalRequestSchema;
+    output: typeof CancelWithdrawalResponseSchema;
+  },
+  /**
+   * @generated from rpc gridx.billing.v1.WalletService.ListWithdrawals
+   */
+  listWithdrawals: {
+    methodKind: "unary";
+    input: typeof ListWithdrawalsRequestSchema;
+    output: typeof ListWithdrawalsResponseSchema;
   },
 }> = /*@__PURE__*/
   serviceDesc(file_gridx_billing_v1_wallet, 0);
